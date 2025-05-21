@@ -1,4 +1,4 @@
-# NanCI - Connecting Scientists: Capabilities, Limitations, and Future AI Enhancements
+]# NanCI - Connecting Scientists: Capabilities, Limitations, and Future AI Enhancements
 
 ## Abstract
 
@@ -134,7 +134,73 @@ Several considerations should guide the implementation of these AI enhancements:
 - **Customization**: Users should have granular control over which AI features are active.
 - **Feedback Loops**: Continuous user feedback should guide AI enhancement priorities.
 
-## 6. Conclusion
+## 6. Comparison with Elicit: Complementary Research Tools
+
+When considering AI-enhanced research tools, it's important to understand how NanCI compares to other prominent platforms in the space, particularly Elicit. While both tools utilize AI to enhance scientific research, they serve different but complementary purposes.
+
+### 6.1 NanCI vs. Elicit: Key Differences
+
+**Purpose and Focus**:
+- **NanCI**: Specifically designed for cancer researchers to discover papers, connect with peers, and explore events. It's a specialized tool created by the National Cancer Institute with a primary focus on building a professional network in cancer research.
+- **Elicit**: A general-purpose AI research assistant designed to automate research workflows, particularly literature reviews across various academic disciplines. It's developed by a public benefit corporation (formerly Ought) to aid researchers broadly.
+
+**Core Features**:
+
+*NanCI*:
+- Personalized content recommendations based on user interests specifically in cancer research
+- Community-building tools for connecting with other cancer researchers
+- Event recommendations for conferences and scientific gatherings
+- AI-powered "chat with paper" feature to ask questions about scientific papers
+- Organization features with customizable folders
+- News feed tailored to cancer research topics
+
+*Elicit*:
+- Literature review automation across all academic disciplines
+- Paper discovery without perfect keyword matching
+- Automated data extraction from papers
+- Research synthesis and summarization
+- Ability to find relevant papers from the Semantic Scholar corpus (125+ million papers)
+- Brainstorming research questions and suggesting search terms
+
+**Target Users**:
+- **NanCI**: Primarily cancer researchers and scientists in related biomedical fields
+- **Elicit**: General academic researchers across disciplines, though it works best for empirical domains like biomedicine and machine learning
+
+**Platform Availability**:
+- **NanCI**: Currently only available on Apple devices (iPhone, iPad, MacBook)
+- **Elicit**: Web-based platform accessible from any browser
+
+**AI Capabilities**:
+- **NanCI**: Uses machine learning to match interests and provide recommendations; offers an AI-driven "chat with paper" feature
+- **Elicit**: Uses language models to automate research workflows with more emphasis on data extraction, summarization, and literature analysis
+
+**Content Sources**:
+- **NanCI**: Sources not explicitly stated, but focused on cancer research literature
+- **Elicit**: Accesses 125+ million academic papers from the Semantic Scholar corpus across all disciplines
+
+### 6.2 Complementary Use Cases in Cancer Research
+
+It's important to note that NanCI does not replace Elicit, even for cancer researchers. Instead, they serve complementary functions with different strengths:
+
+**Different core functionalities**:
+- NanCI excels at networking, personalized recommendations, and community building within cancer research
+- Elicit specializes in literature review automation, data extraction, and research synthesis
+
+**Research workflow differences**:
+- NanCI is primarily designed as a discovery and networking platform
+- Elicit is specifically built to automate systematic literature reviews and data extraction tasks
+
+**Search and analysis capabilities**:
+- Elicit searches across a broader academic database than NanCI
+- Elicit offers more advanced research automation features like automated data extraction from papers and systematic review capabilities
+
+**Different stages of research**:
+- A cancer researcher might use NanCI at early stages to discover trending papers and connect with colleagues
+- They might then use Elicit for deeper literature reviews, data extraction, and synthesis once they've identified their specific research question
+
+For optimal research workflows, cancer researchers may benefit from using both tools as complementary resources rather than choosing only one.
+
+## 7. Conclusion
 
 The NanCI - Connecting Scientists mobile application represents an important step toward AI-enhanced scientific collaboration in cancer research. Its current capabilities in personalized recommendations, content organization, interactive assistance, and community building provide a solid foundation for research networking.
 
@@ -146,7 +212,6 @@ Future development should balance technical innovation with researcher needs, ma
 
 NCI. (2025). NanCI - Connecting Scientists Mobile App. Retrieved from National Cancer Institute website.
 
-[Note: Additional references would be added based on relevant AI literature and scientific collaboration research.]
 
 ## Appendix: Current Availability and Support
 
