@@ -1,4 +1,4 @@
-]# NanCI - Connecting Scientists: Capabilities, Limitations, and Future AI Enhancements
+# NanCI - Connecting Scientists: Capabilities, Limitations, and Future AI Enhancements
 
 ## Abstract
 
