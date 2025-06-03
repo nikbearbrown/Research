@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-We're recruiting researchers, educators, and developers to join an 8-week research project exploring the development of Intelligent AI Textbooks. This revolutionary approach transforms traditional static learning materials into dynamic, conversational, and personalized educational experiences. The project aims to create adaptive textbooks that respond to individual learning styles, align with instructor methodologies, and deliver customized content in real-time.
+We're recruiting researchers, educators, and developers to join a research project exploring the development of Intelligent AI Textbooks. This revolutionary approach transforms traditional static learning materials into dynamic, conversational, and personalized educational experiences. The project aims to create adaptive textbooks that respond to individual learning styles, align with instructor methodologies, and deliver customized content in real-time.
 
 ## Research Context
 
@@ -97,34 +97,6 @@ We're seeking researchers with backgrounds in:
 - Cloud Computing (AWS)
 - Subject Matter Experts (various disciplines)
 
-## Project Timeline
-
-The 8-week research initiative is structured as follows:
-
-**Weeks 1-2: Foundation**
-- Conceptual framework development
-- User needs analysis
-- Initial architecture design
-- AWS infrastructure setup
-
-**Weeks 3-4: Core Systems**
-- Conversational AI implementation
-- Content personalization algorithms
-- Instructor style recognition systems
-- Begin Open Stax conversions
-
-**Weeks 5-6: Integration & Testing**
-- System component integration
-- Initial user testing with students and instructors
-- Refinement based on feedback
-- Complete Open Stax conversions
-
-**Weeks 7-8: Evaluation & Documentation**
-- Comprehensive evaluation across learning contexts
-- Documentation of research findings
-- Framework for future expansion and research
-- AWS optimization for production deployment
-
 ## Expected Outcomes
 
 - Functional prototype of an Intelligent AI Textbook
@@ -138,6 +110,6 @@ The 8-week research initiative is structured as follows:
 
 ## How to Apply
 
-If you're interested in contributing to a revolutionary approach to learning that goes beyond static content and transforms knowledge delivery into an interactive, adaptive, and personalized experience, please contact [Research Coordinator Contact Information] with your CV and a brief statement of interest. Please specify which OPT-eligible position you're applying for in your application.
+If you're interested in contributing to a revolutionary approach to learning that goes beyond static content and transforms knowledge delivery into an interactive, adaptive, and personalized experience, please contact [HR <hr@humanitarians.ai>](HR <hr@humanitarians.ai>) with your CV and a brief statement of interest. Please specify which OPT-eligible position you're applying for in your application.
 
 Join us in creating smarter textbooks, adaptive learning, and AI-driven knowledge for the future of education.
