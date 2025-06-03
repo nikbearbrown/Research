@@ -110,6 +110,6 @@ We're seeking researchers with backgrounds in:
 
 ## How to Apply
 
-If you're interested in contributing to a revolutionary approach to learning that goes beyond static content and transforms knowledge delivery into an interactive, adaptive, and personalized experience, please contact [HR <hr@humanitarians.ai>](HR <hr@humanitarians.ai>) with your CV and a brief statement of interest. Please specify which OPT-eligible position you're applying for in your application.
+If you're interested in contributing to a revolutionary approach to learning that goes beyond static content and transforms knowledge delivery into an interactive, adaptive, and personalized experience, please contact [Humanitarians Ai HR](mailto:hr@humanitarians.ai) with your CV and a brief statement of interest. Please specify which OPT-eligible position you're applying for in your application.
 
 Join us in creating smarter textbooks, adaptive learning, and AI-driven knowledge for the future of education.
