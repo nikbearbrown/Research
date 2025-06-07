@@ -1,6 +1,6 @@
 # The Rise of AI Fluency as a Core Hiring Requirement: Trends and Implications Across Industries
 
-**Author:** Claude Research Team  
+**Author:** Nik Bear Brown
 **Date:** June 7, 2025
 
 ## Abstract
