@@ -56,7 +56,7 @@ Accuracy depends on training data and model complexity. Most systems report over
 
 ---
 
-## 🏛️ Journals to Submit Your Survey Paper
+## 🏛️ Journals to Submit the Survey Paper
 
 Here are recommended journals where this citation checker survey paper is a strong fit, based on scope, audience, and relevance to NLP, information retrieval, and scientometrics.
 
@@ -70,7 +70,7 @@ Here are recommended journals where this citation checker survey paper is a stro
 | [Online Information Review](https://www.emeraldgrouppublishing.com/journal/oir) | Emerald | Covers digital content verification, scholarly publishing, IR | [Submit to OIR](https://mc.manuscriptcentral.com/oir) |
 | [PeerJ Computer Science](https://peerj.com/computer-science/) | PeerJ | Open-access journal with rapid peer review in CS | [Submit to PeerJ CS](https://peerj.com/computer-science/submit/) |
 
-> ✍️ Pro Tip: Match your manuscript to each journal's aims, author guidelines, and formatting templates before submission.
+> ✍️ Pro Tip: Match the manuscript to each journal's aims, author guidelines, and formatting templates before submission.
 ---
 
 ## 🛠️ Getting Started
