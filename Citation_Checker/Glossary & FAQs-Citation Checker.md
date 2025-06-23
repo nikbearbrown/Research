@@ -56,6 +56,23 @@ Accuracy depends on training data and model complexity. Most systems report over
 
 ---
 
+## 🏛️ Journals to Submit Your Survey Paper
+
+Here are recommended journals where this citation checker survey paper is a strong fit, based on scope, audience, and relevance to NLP, information retrieval, and scientometrics.
+
+| Journal | Publisher | Scope | Submission Link |
+|--------|-----------|--------|------------------|
+| [ACM Computing Surveys (CSUR)](https://dl.acm.org/journal/csur) | ACM | High-impact computing surveys across all subfields | [Submit to CSUR](https://dl.acm.org/journal/csur) |
+| [IEEE Access](https://ieeeaccess.ieee.org/) | IEEE | Interdisciplinary, fast-track publishing of practical research | [Submit to IEEE Access](https://ieeeaccess.ieee.org/submit-your-manuscript/) |
+| [Information Processing & Management (IP&M)](https://www.sciencedirect.com/journal/information-processing-and-management) | Elsevier | Covers IR, digital libraries, NLP, and citation analysis | [Submit to IP&M](https://www.editorialmanager.com/ipm/default1.aspx) |
+| [JASIST (Journal of the Association for Information Science and Technology)](https://asistdl.onlinelibrary.wiley.com/journal/23301643) | Wiley | Focus on information science, scientometrics, scholarly communication | [Submit to JASIST](https://mc.manuscriptcentral.com/jasist) |
+| [Scientometrics](https://www.springer.com/journal/11192) | Springer | Emphasis on research metrics, citation studies, and evaluation | [Submit to Scientometrics](https://www.editorialmanager.com/scie/default.aspx) |
+| [Online Information Review](https://www.emeraldgrouppublishing.com/journal/oir) | Emerald | Covers digital content verification, scholarly publishing, IR | [Submit to OIR](https://mc.manuscriptcentral.com/oir) |
+| [PeerJ Computer Science](https://peerj.com/computer-science/) | PeerJ | Open-access journal with rapid peer review in CS | [Submit to PeerJ CS](https://peerj.com/computer-science/submit/) |
+
+> ✍️ Pro Tip: Match your manuscript to each journal's aims, author guidelines, and formatting templates before submission.
+---
+
 ## 🛠️ Getting Started
 
 Coming soon: Setup instructions, API usage, and contribution guidelines.
