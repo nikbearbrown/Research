@@ -73,6 +73,50 @@ Here are recommended journals where this citation checker survey paper is a stro
 > ✍️ Pro Tip: Match the manuscript to each journal's aims, author guidelines, and formatting templates before submission.
 ---
 
+## 🧠 Paper Types You Can Publish
+
+| Paper Type | Description | Ideal Venue |
+|------------|-------------|-------------|
+| **Survey Paper** | A comprehensive review of existing citation checking systems, datasets, and methods. | ACM Computing Surveys, Scientometrics, JASIST |
+| **System Design Paper** | Describes a new citation checker tool with architecture, implementation, and use case. | IEEE Access, PeerJ Computer Science |
+| **Benchmark & Evaluation Paper** | Provides comparative analysis of citation verification tools on standard datasets. | Information Processing & Management, Scientometrics |
+| **Citation Context Classification** | Focuses on detecting citation intent, sentiment, or rhetorical function using NLP. | ACL Anthology, NAACL, COLING |
+| **Dataset Paper** | Introduces a new labeled dataset for citation errors, contexts, or verification challenges. | Data and Information Management, JASIST |
+| **Application Paper** | Shows how the citation checker improves quality in peer review, plagiarism detection, etc. | Online Information Review, arXiv preprint |
+| **Thesis/Dissertation Chapter** | Integrates citation checking as part of broader research on scholarly integrity or NLP. | Institutional Repositories |
+
+---
+
+## 🔍 Citation Checker: Research Scope
+
+### 🔧 1. System-Level Scope
+- Reference string parsing (APA, MLA, Chicago, IEEE)
+- Integration with metadata databases (CrossRef, PubMed, OpenAlex)
+- Semantic citation matching using LLMs (e.g., BERT, GPT)
+- Automated detection of:
+  - Broken citations
+  - Misleading citations
+  - Self-plagiarism via citations
+
+### 🧪 2. Evaluation & Benchmarking Scope
+- Design of evaluation metrics: precision, recall, F1, semantic overlap
+- False positive/false negative analysis
+- Dataset curation and annotation for training/testing
+- Cross-domain benchmarking (STEM vs Humanities papers)
+
+### 📊 3. Scholarly Impact & Policy Scope
+- Impact on peer review and editorial workflows
+- Role in improving academic integrity
+- Cross-lingual or multilingual citation checking
+- Standardization of citation verification in publication pipelines
+
+### 💡 4. AI and ML Research Scope
+- Supervised/unsupervised learning models for citation classification
+- Use of transformer-based models (SciBERT, RoBERTa, GPT-4)
+- Zero-shot/few-shot learning for citation intent
+- Explainable AI for citation reliability
+---
+
 ## 🛠️ Getting Started
 
 Coming soon: Setup instructions, API usage, and contribution guidelines.
