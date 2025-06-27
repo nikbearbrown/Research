@@ -1,0 +1,77 @@
+{
+  "citations": [
+    {
+      "text": "Smith, J. D., & Johnson, M. (2020). The impact of artificial intelligence on citation validation. Journal of AI Research, 15(2), 45-67. https://doi.org/10.1234/jair.2020.1234",
+      "expected": {
+        "authors": ["Smith, J. D.", "Johnson, M."],
+        "year": 2020,
+        "title": "The impact of artificial intelligence on citation validation",
+        "source": "Journal of AI Research",
+        "volume": "15",
+        "issue": "2",
+        "pages": "45-67",
+        "doi": "10.1234/jair.2020.1234"
+      }
+    },
+    {
+      "text": "Brown, R. (2019). Understanding citation patterns in academic research. Educational Research Review, 35, 178-190.",
+      "expected": {
+        "authors": ["Brown, R."],
+        "year": 2019,
+        "title": "Understanding citation patterns in academic research",
+        "source": "Educational Research Review",
+        "volume": "35",
+        "pages": "178-190"
+      }
+    },
+    {
+      "text": "Garcia, P., & Wilson, T. (2022). Citation verification techniques for large language models. AI Magazine, 43(1), 112-125.",
+      "expected": {
+        "authors": ["Garcia, P.", "Wilson, T."],
+        "year": 2022,
+        "title": "Citation verification techniques for large language models",
+        "source": "AI Magazine",
+        "volume": "43",
+        "issue": "1",
+        "pages": "112-125"
+      }
+    },
+    {
+      "text": "Luo, M., Li, C. C., Molina, D., Andersen, J. P., & Paget, M. (2014). Accuracy of citation data in Web of Science and Scopus. Journal of Informetrics, 8(4), 824-830.",
+      "expected": {
+        "authors": ["Luo, M.", "Li, C. C.", "Molina, D.", "Andersen, J. P.", "Paget, M."],
+        "year": 2014,
+        "title": "Accuracy of citation data in Web of Science and Scopus",
+        "source": "Journal of Informetrics",
+        "volume": "8",
+        "issue": "4",
+        "pages": "824-830"
+      }
+    },
+    {
+      "text": "Awais, R., Singh, N., Weizman, A., & Sharma, A. (2015). Citation errors in the master's theses of the Library and Information Science Department, at the University of the Punjab. Library Philosophy and Practice, 1223, 1-15.",
+      "expected": {
+        "authors": ["Awais, R.", "Singh, N.", "Weizman, A.", "Sharma, A."],
+        "year": 2015,
+        "title": "Citation errors in the master's theses of the Library and Information Science Department, at the University of the Punjab",
+        "source": "Library Philosophy and Practice",
+        "volume": "1223",
+        "pages": "1-15"
+      }
+    },
+    {
+      "text": "Garfield, E. (1955). Citation indexes for science: A new dimension in documentation through association of ideas. Science, 122(3159), 108-111. DOI: 10.1126/science.122.3159.108",
+      "expected": {
+        "authors": ["Garfield, E."],
+        "year": 1955,
+        "title": "Citation indexes for science: A new dimension in documentation through association of ideas",
+        "source": "Science",
+        "volume": "122",
+        "issue": "3159",
+        "pages": "108-111",
+        "doi": "10.1126/science.122.3159.108"
+      }
+    }
+  ],
+  "mixed_text": "This is a paragraph with an in-text citation (Smith & Johnson, 2020).\n\nThese are reference entries:\n\nSmith, J. D., & Johnson, M. (2020). The impact of artificial intelligence on citation validation. Journal of AI Research, 15(2), 45-67. https://doi.org/10.1234/jair.2020.1234\n\nBrown, R. (2019). Understanding citation patterns in academic research. Educational Research Review, 35, 178-190.\n\nThe problem of citation errors has been documented across disciplines at concerning rates, with studies showing error rates ranging from 10% to over 40% depending on the field and error type (Luo et al., 2014; Awais et al., 2015)."
+}
