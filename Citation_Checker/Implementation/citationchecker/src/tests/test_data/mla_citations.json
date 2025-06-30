@@ -1,0 +1,175 @@
+{
+  "citations": [
+    {
+      "text": "Smith, John. \"The Impact of Digital Libraries on Academic Research.\" Journal of Information Science, vol. 45, no. 3, 2020, pp. 234-250.",
+      "expected": {
+        "authors": ["Smith, John"],
+        "year": 2020,
+        "title": "The Impact of Digital Libraries on Academic Research",
+        "source": "Journal of Information Science",
+        "volume": "45",
+        "issue": "3",
+        "pages": "234-250"
+      }
+    },
+    {
+      "text": "Johnson, Mary, and David Brown. \"Citation Analysis in the Digital Age.\" Academic Writing Quarterly, vol. 12, no. 4, 2021, pp. 45-67.",
+      "expected": {
+        "authors": ["Johnson, Mary", "Brown, David"],
+        "year": 2021,
+        "title": "Citation Analysis in the Digital Age",
+        "source": "Academic Writing Quarterly",
+        "volume": "12",
+        "issue": "4",
+        "pages": "45-67"
+      }
+    },
+    {
+      "text": "Garcia, Patricia, et al. \"Machine Learning Applications in Citation Verification.\" AI Research Review, vol. 8, no. 2, 2022, pp. 112-135.",
+      "expected": {
+        "authors": ["Garcia, Patricia"],
+        "year": 2022,
+        "title": "Machine Learning Applications in Citation Verification",
+        "source": "AI Research Review",
+        "volume": "8",
+        "issue": "2",
+        "pages": "112-135"
+      }
+    },
+    {
+      "text": "Wilson, Robert. Understanding Academic Citations. University Press, 2019.",
+      "expected": {
+        "authors": ["Wilson, Robert"],
+        "year": 2019,
+        "title": "Understanding Academic Citations",
+        "source": "Understanding Academic Citations",
+        "publisher": "University Press"
+      }
+    },
+    {
+      "text": "Chen, Li. \"Web-Based Citation Tools: A Comprehensive Review.\" TechReview Online, 15 Mar. 2023, https://www.techreview.com/citations-tools-2023.",
+      "expected": {
+        "authors": ["Chen, Li"],
+        "year": 2023,
+        "title": "Web-Based Citation Tools: A Comprehensive Review",
+        "source": "TechReview Online",
+        "url": "https://www.techreview.com/citations-tools-2023"
+      }
+    },
+    {
+      "text": "Anderson, Sarah. \"The Evolution of Citation Formats.\" The History of Academic Writing, edited by Michael Thompson, Academic Publishers, 2020, pp. 78-95.",
+      "expected": {
+        "authors": ["Anderson, Sarah"],
+        "year": 2020,
+        "title": "The Evolution of Citation Formats",
+        "source": "The History of Academic Writing",
+        "publisher": "Academic Publishers",
+        "pages": "78-95"
+      }
+    },
+    {
+      "text": "\"Citation Errors in Student Papers.\" Education Today, vol. 25, no. 6, 2021, pp. 12-18.",
+      "expected": {
+        "authors": [],
+        "year": 2021,
+        "title": "Citation Errors in Student Papers",
+        "source": "Education Today",
+        "volume": "25",
+        "issue": "6",
+        "pages": "12-18"
+      }
+    },
+    {
+      "text": "Martinez, Carlos. \"Automated Citation Checking Systems.\" Library Technology Journal, vol. 33, no. 1, 2022, pp. 89-104.",
+      "expected": {
+        "authors": ["Martinez, Carlos"],
+        "year": 2022,
+        "title": "Automated Citation Checking Systems",
+        "source": "Library Technology Journal",
+        "volume": "33",
+        "issue": "1",
+        "pages": "89-104"
+      }
+    },
+    {
+      "text": "Taylor, Jennifer, and Mark Davis. \"Best Practices for Academic Citation.\" Scholarly Communication Review, vol. 19, no. 3, 2021, pp. 156-172.",
+      "expected": {
+        "authors": ["Taylor, Jennifer", "Davis, Mark"],
+        "year": 2021,
+        "title": "Best Practices for Academic Citation",
+        "source": "Scholarly Communication Review",
+        "volume": "19",
+        "issue": "3",
+        "pages": "156-172"
+      }
+    },
+    {
+      "text": "Kumar, Raj. \"Digital Humanities and Citation Networks.\" Modern Research Methods, vol. 7, no. 2, 2023, pp. 201-220.",
+      "expected": {
+        "authors": ["Kumar, Raj"],
+        "year": 2023,
+        "title": "Digital Humanities and Citation Networks",
+        "source": "Modern Research Methods",
+        "volume": "7",
+        "issue": "2",
+        "pages": "201-220"
+      }
+    },
+    {
+      "text": "White, Emma. \"The Future of Academic Publishing.\" Research Today, 22 Jan. 2023, https://www.researchtoday.org/future-publishing.",
+      "expected": {
+        "authors": ["White, Emma"],
+        "year": 2023,
+        "title": "The Future of Academic Publishing",
+        "source": "Research Today",
+        "url": "https://www.researchtoday.org/future-publishing"
+      }
+    },
+    {
+      "text": "Thompson, Michael. Citation Management Tools. Tech Publications, 2022.",
+      "expected": {
+        "authors": ["Thompson, Michael"],
+        "year": 2022,
+        "title": "Citation Management Tools",
+        "source": "Citation Management Tools",
+        "publisher": "Tech Publications"
+      }
+    },
+    {
+      "text": "Lee, Susan, and James Park. \"Cross-Disciplinary Citation Patterns.\" Interdisciplinary Studies Quarterly, vol. 14, no. 4, 2020, pp. 67-85.",
+      "expected": {
+        "authors": ["Lee, Susan", "Park, James"],
+        "year": 2020,
+        "title": "Cross-Disciplinary Citation Patterns",
+        "source": "Interdisciplinary Studies Quarterly",
+        "volume": "14",
+        "issue": "4",
+        "pages": "67-85"
+      }
+    },
+    {
+      "text": "Rodriguez, Ana. \"Open Access and Citation Metrics.\" Journal of Scholarly Publishing, vol. 52, no. 3, 2021, pp. 178-195.",
+      "expected": {
+        "authors": ["Rodriguez, Ana"],
+        "year": 2021,
+        "title": "Open Access and Citation Metrics",
+        "source": "Journal of Scholarly Publishing",
+        "volume": "52",
+        "issue": "3",
+        "pages": "178-195"
+      }
+    },
+    {
+      "text": "Clark, William. \"Plagiarism Detection Through Citation Analysis.\" Ethics in Research, edited by Lisa Green, Academic Ethics Press, 2023, pp. 45-62.",
+      "expected": {
+        "authors": ["Clark, William"],
+        "year": 2023,
+        "title": "Plagiarism Detection Through Citation Analysis",
+        "source": "Ethics in Research",
+        "publisher": "Academic Ethics Press",
+        "pages": "45-62"
+      }
+    }
+  ],
+  "mixed_text": "This paper examines citation practices in academic writing. Several studies have highlighted the importance of proper citation (Smith 2020; Johnson and Brown 2021).\n\nWorks Cited\n\nSmith, John. \"The Impact of Digital Libraries on Academic Research.\" Journal of Information Science, vol. 45, no. 3, 2020, pp. 234-250.\n\nJohnson, Mary, and David Brown. \"Citation Analysis in the Digital Age.\" Academic Writing Quarterly, vol. 12, no. 4, 2021, pp. 45-67.\n\nGarcia, Patricia, et al. \"Machine Learning Applications in Citation Verification.\" AI Research Review, vol. 8, no. 2, 2022, pp. 112-135.\n\nThe importance of accurate citation has been emphasized by numerous scholars in the field of information science."
+}
