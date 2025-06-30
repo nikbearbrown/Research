@@ -60,6 +60,27 @@ The `APACitationParser` implements parsing for APA citation format:
 - Provides fallback parsing for non-standard formats
 - Calculates confidence scores based on completeness
 
+#### MLA Parser (`src/parsers/mla_parser.py`)
+
+The `MLACitationParser` implements parsing for MLA citation format (9th edition):
+
+- **Supported MLA Citation Types**:
+  - **Journal Articles**: `Smith, John. "Article Title." Journal Name, vol. 15, no. 2, 2020, pp. 45-67.`
+  - **Books**: `Author, First. Book Title. Publisher, Year.`
+  - **Web Articles**: `Author, First. "Web Article." Website Name, Date, URL.`
+  - **Book Chapters**: `Author. "Chapter Title." Book Title, edited by Editor, Publisher, Year, pp. 45-67.`
+  - **Multiple Authors**: `Smith, John, and Mary Johnson. "Title." Source, Date.`
+  - **Et Al. Citations**: `Smith, John, et al. "Title." Source, Date.`
+  - **No Author Citations**: `"Article Title." Source, Date.`
+
+- **Key Features**:
+  - Handles MLA-specific author formats (full names, "and", "et al.")
+  - Extracts volume/issue in MLA format ("vol. X, no. Y")
+  - Processes various MLA date formats (year only, full dates)
+  - Identifies citation types (article, book, web, chapter)
+  - Supports Works Cited section extraction
+  - High accuracy parsing with confidence scoring
+
 #### Utility Functions (`src/parsers/utils.py`)
 
 Helper functions for parsing citations:
@@ -132,6 +153,7 @@ python -m src.main -t "Smith, J. (2020). Title. Journal, 15(2), 45-67." -o text
 
 #### Python API
 
+**APA Citations:**
 ```python
 from src.parsers.apa_parser import APACitationParser
 
@@ -145,18 +167,74 @@ citation = parser.parse("Smith, J. (2020). Title. Journal, 15(2), 45-67.")
 citations = parser.extract_citations(text_with_multiple_citations)
 ```
 
+**MLA Citations:**
+```python
+from src.parsers.mla_parser import MLACitationParser
+
+# Initialize MLA parser
+mla_parser = MLACitationParser()
+
+# Parse different MLA citation types
+journal_citation = mla_parser.parse('Smith, John. "Digital Libraries in Research." Journal of Information Science, vol. 45, no. 3, 2020, pp. 234-250.')
+
+book_citation = mla_parser.parse('Wilson, Robert. Understanding Academic Citations. University Press, 2019.')
+
+web_citation = mla_parser.parse('Chen, Li. "Citation Tools Review." TechReview Online, 15 Mar. 2023, https://www.techreview.com/citations.')
+
+# Extract from Works Cited section
+works_cited_text = """
+Works Cited
+
+Smith, John. "Digital Libraries in Research." Journal of Information Science, vol. 45, no. 3, 2020, pp. 234-250.
+
+Johnson, Mary, and David Brown. "Citation Analysis." Academic Writing Quarterly, vol. 12, no. 4, 2021, pp. 45-67.
+"""
+
+citations = mla_parser.extract_citations(works_cited_text)
+print(f"Found {len(citations)} MLA citations")
+
+# Access citation data
+for citation in citations:
+    print(f"Authors: {citation.authors}")
+    print(f"Title: {citation.title}")
+    print(f"Source: {citation.source}")
+    print(f"Year: {citation.year}")
+    print(f"Confidence: {citation.confidence_score:.2f}")
+```
+
 ## Testing
 
 The project includes a comprehensive test suite:
 
 - `test_apa_parser.py`: Tests for the APA citation parser
-- `test_data/apa_citations.json`: Sample citations for testing
+- `test_mla_parser.py`: Tests for the MLA citation parser
+- `test_data/apa_citations.json`: Sample APA citations for testing
+- `test_data/mla_citations.json`: Sample MLA citations for testing
 
 Run tests with pytest:
 
 ```bash
 python -m pytest
 ```
+
+### Test Coverage
+
+**APA Parser Tests:**
+- Parametrized tests for various APA citation formats
+- Author parsing with multiple authors and "&" separators
+- Volume, issue, and page extraction
+- DOI and URL extraction
+- Confidence score validation
+
+**MLA Parser Tests:**
+- Journal articles with volume/issue/pages
+- Book citations with publishers
+- Web citations with URLs and dates
+- Book chapters with editors
+- Multiple author formats ("and", "et al.")
+- No-author citations
+- Works Cited section extraction
+- Edge cases and error handling
 
 ## Future Development
 
