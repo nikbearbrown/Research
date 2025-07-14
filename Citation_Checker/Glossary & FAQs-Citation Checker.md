@@ -63,6 +63,73 @@ Citations are the **ground truth** that models must evaluate for:
 ---
 
 > ✅ *A good citation is not just a formality. It is a bridge between knowledge, credibility, and accountability.*
+>
+> # 📖 Citation vs Reference – What’s the Difference?
+
+When working on academic writing or research projects, the terms **citation** and **reference** are often used—but they are **not the same**.
+
+---
+
+## 🧾 What is a Citation?
+
+A **citation** is a **brief mention within the body** of your work that points to a source of information.
+
+### 🔹 Example (in-text citation):
+> "Artificial Intelligence can improve diagnosis accuracy (Smith et al., 2022)."
+
+### 📍 Location:
+- Appears **inside the text**
+- Often in **parentheses**, **footnotes**, or **superscripts**
+- Helps readers know **immediately** where a fact or claim came from
+
+---
+
+## 📚 What is a Reference?
+
+A **reference** is a **full, detailed listing** of the source cited.
+
+### 🔹 Example (full reference):
+> Smith, J., Kumar, R., & Lee, T. (2022). *AI in Medical Diagnosis*. Journal of Health Informatics, 12(3), 45–60.
+
+### 📍 Location:
+- Appears at the **end of the document** (in a section titled *References* or *Bibliography*)
+- Includes full information: **author(s), title, journal/book, year, pages, publisher, etc.**
+
+---
+
+## 🧠 Key Differences at a Glance
+
+| Feature            | Citation                            | Reference                             |
+|--------------------|--------------------------------------|----------------------------------------|
+| 📍 Location        | In the **main body** of the text     | At the **end** of the document         |
+| 🎯 Purpose         | Points to a source **briefly**       | Gives **full details** of the source   |
+| 📐 Format Style    | (Author, Year) or [Number]           | Full citation info (APA, IEEE, etc.)   |
+| 🔗 Relationship    | Refers **to** an entry in references | Matches a citation **from** the text   |
+| 🧾 Contains        | Author name, year (or number)        | Author, title, journal/book, year, etc.|
+
+---
+
+## 📌 Are They Always Linked?
+
+✅ Yes — **Every citation** in your text **must match a reference** in your bibliography or references section.
+
+❌ But — A **reference without a citation** may indicate unused or unnecessary material.
+
+---
+
+## 🧪 Example in APA Format
+
+**In-Text Citation:**
+> (Brown & Lee, 2023)
+
+**Reference:**
+> Brown, M., & Lee, J. (2023). *Advances in Biomedical LLMs*. AI Journal, 18(2), 123–137.
+
+---
+
+> ✅ In short:  
+> **Citations** are *signals* inside the text,  
+> **References** are the *details* listed at the end.
 
 # 📚 Citation Checker
 
