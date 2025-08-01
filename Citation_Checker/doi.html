@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOI Validator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            text-align: center;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 15px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .result {
+            display: none;
+            margin-top: 30px;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            animation: fadeIn 0.5s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .result.error {
+            background: #fee;
+            border-left: 4px solid #f44336;
+        }
+
+        .result.success {
+            background: #efe;
+            border-left: 4px solid #4caf50;
+        }
+
+        .result h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .result-item {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .result-label {
+            font-weight: 600;
+            color: #555;
+            display: inline-block;
+            min-width: 120px;
+        }
+
+        .authors-list {
+            margin-left: 120px;
+            margin-top: 5px;
+        }
+
+        .citation-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-style: italic;
+            color: #444;
+            border: 1px solid #ddd;
+        }
+
+        .copy-button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .examples {
+            margin-top: 40px;
+            text-align: center;
+            color: #666;
+        }
+
+        .example-dois {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .example-doi {
+            background: #f0f0f0;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .example-doi:hover {
+            background: #e0e0e0;
+        }
+
+        .url-link {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .url-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>DOI Validator</h1>
+        <p class="subtitle">Enter a DOI to retrieve publication information</p>
+        
+        <div class="input-group">
+            <input type="text" id="doiInput" placeholder="Enter DOI (e.g., 10.1038/nature14539)" 
+                   onkeypress="if(event.key === 'Enter') validateDOI()">
+            <button onclick="validateDOI()" id="submitButton">Validate</button>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p style="margin-top: 10px; color: #666;">Searching CrossRef database...</p>
+        </div>
+
+        <div class="result" id="result"></div>
+        <div><a href="index.html">Back</a></div>
+<!--
+        <div class="examples">
+            <p>Examples</p>
+            <div class="example-dois">
+                <span class="example-doi" onclick="setDOI('10.1038/nature14539')">Deep Learning (Nature)</span>
+                <span class="example-doi" onclick="setDOI('10.1038/s41592-021-01264-7')">Tangram (Nature Methods)</span>
+                <span class="example-doi" onclick="setDOI('10.1126/science.1127647')">CRISPR (Science)</span>
+            </div>
+        -->
+        </div>
+    </div>
+
+    <script src ="script.js"></script>
+        
+</body>
+</html>
