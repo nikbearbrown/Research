@@ -1,5 +1,6 @@
 # Compiled
 *.elc
+*.DS_Store
 
 # Packaging
 .cask/
