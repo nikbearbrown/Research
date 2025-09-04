@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": 1,
+    "gpt-5_answer": "- The second hand rotates clockwise as you face the clock.\n- By the right-hand rule, angular velocity points along the axis so that curl of fingers matches rotation.\n- For clockwise rotation viewed by you, the thumb points away from you.\nAnswer: Into the wall (away from the observer; along negative z if +z is out of the wall)."
+  },
+  {
+    "question_id": 2,
+    "gpt-5_answer": "- For a rigid bat, all points share the same angular velocity ω at any instant.  \n- Tangential speed depends on distance r from the axis: v = ω r.  \n- Therefore: same angular velocity? Yes. Same tangential speed? No—points farther from the axis (the barrel) move faster than points near the hands."
+  },
+  {
+    "question_id": 3,
+    "gpt-5_answer": "- Given constant angular acceleration α: dω/dt = α.\n- Integrate: ∫ dω = ∫ α dt ⇒ ω(t) = α t + C.\n- Apply initial condition ω(0) = ω0 ⇒ C = ω0.\n\nAnswer: ω(t) = ω0 + α t."
+  },
+  {
+    "question_id": 4,
+    "gpt-5_answer": "- Given: angular acceleration α(t) = dω/dt = 0.\n- Integrate: dω/dt = 0 ⇒ ω(t) = constant.\n- Functional form: ω(t) = ω0 (a constant vector or scalar, depending on context)."
+  },
+  {
+    "question_id": 5,
+    "gpt-5_answer": "Step 1: In circular motion, velocity v is always tangent to the circle; its direction changes as the object moves.\n\nStep 2: The required acceleration is centripetal: a_c points toward the center (radially inward).\n\nStep 3: At every instant, a_c is perpendicular to v (tangent ⟂ radius).\n\nStep 4: The rate of change of speed is d|v|/dt = (v · a)/|v|. Since v ⟂ a_c, v · a_c = 0 ⇒ d|v|/dt = 0, so the magnitude (speed) stays constant.\n\nStep 5: Although speed is constant, a perpendicular acceleration changes the direction of v, bending the path into a circle. Its size is a_c = v^2/r (or ω^2 r), which sets how fast the direction turns.\n\nConclusion: Centripetal acceleration, being perpendicular to velocity, changes only direction, not magnitude."
+  },
+  {
+    "question_id": 6,
+    "gpt-5_answer": "Key relations: a_t = rα (tangential), a_c = rω² (centripetal).\n\n(a) Speeding up: α ≠ 0 and (once moving) ω ≠ 0 → both nonzero.\n(b) Constant ω: α = 0, ω ≠ 0 → centripetal only.\n(c) Slowing down: α ≠ 0 (negative) and (until it stops) ω ≠ 0 → both nonzero; at the final instant of rest: both zero."
+  },
+  {
+    "question_id": 7,
+    "gpt-5_answer": "Given same mass M, radius R, and angular speed ω:\n\n- Rotational KE: K = (1/2) I ω^2\n- Solid sphere: I_solid = (2/5)MR^2 → K_solid = (1/2)(2/5)MR^2 ω^2 = (1/5)MR^2 ω^2\n- Hollow (thin shell): I_hollow = (2/3)MR^2 → K_hollow = (1/2)(2/3)MR^2 ω^2 = (1/3)MR^2 ω^2\n\nSince (1/3) > (1/5), the hollow sphere has greater rotational kinetic energy."
+  },
+  {
+    "question_id": 8,
+    "gpt-5_answer": "(a) It decreases. Before release: I_before ≈ I_thrower + m_d r^2 (plus the discus’s small intrinsic 1/2 m_d R_disc^2). After release: I_after = I_thrower. So ΔI ≈ − m_d r^2.\n\n(b) Approximate the thrower as a uniform solid cylinder about the vertical axis: I_thrower ≈ (1/2) M_body R_body^2. Approximate the discus as a point mass at the arm’s length r: I_discus ≈ m_d r^2 (optionally add 1/2 m_d R_disc^2)."
+  },
+  {
+    "question_id": 9,
+    "gpt-5_answer": "Because moment of inertia weights distance squared. For a uniform rod about an end,\n\n- I = ∫ r² dm = (m/L)∫₀ᴸ r² dr = mL²/3.\n- A point mass at the center would give I = m(L/2)² = mL²/4.\n\nThe rod’s I uses the average of r², not (average of r)². For a uniform distribution on [0, L]:\n⟨r²⟩ = ⟨r⟩² + Var(r) = (L/2)² + L²/12 = L²/3 > L²/4.\n\nMass farther than L/2 contributes disproportionately (r² weighting), so the distributed rod has a larger I."
+  },
+  {
+    "question_id": 10,
+    "gpt-5_answer": "- Magnitude of the force, F\n- Distance from pivot to point of application (radius/lever arm), r\n- Angle between the force and the position vector, θ (only the perpendicular component counts)\n\nSince τ = r F sinθ, these three determine the torque."
+  },
+  {
+    "question_id": 11,
+    "gpt-5_answer": "Step-by-step:\n\n1) Model each wheel (tire + rim) as a hoop: I ≈ m r^2, with ω = v/r.\n\n2) Energy to reach speed v:\n- Frame mass m_f: KE = 1/2 m_f v^2 (translational only).\n- Rim/tire mass m_w (at radius r): KE = 1/2 m_w v^2 (translational) + 1/2 I ω^2 = 1/2 m_w v^2 + 1/2 (m_w r^2)(v^2/r^2) = m_w v^2.\nSo 1 kg at the rim costs about twice the energy of 1 kg in the frame.\n\n3) Dynamics (effective mass):\na = F / (M + Σ I/r^2). For two hoop-like wheels, I/r^2 = m_w per wheel, so denominator = M + 2 m_w.\nFrame mass only adds to M; rim/tire mass adds to both M and the rotational term, effectively “counting twice.”\n\nConclusion: Reducing tire/rim mass reduces both translational and rotational inertia (especially large because mass is far from the axis), yielding greater acceleration than the same reduction in frame mass."
+  },
+  {
+    "question_id": 12,
+    "gpt-5_answer": "Yes.\n\nStep-by-step:\n1) Torque about an origin is τ = Σ(r_i × F_i).\n2) Take two forces F applied along the same straight line (say the x-axis) at different points on that line.\n3) For each force, r_i is parallel to F_i, so r_i × F_i = 0.\n4) Thus net torque is 0, while the net force is 2F ≠ 0.\n\nMore generally, any set of colinear forces produces a nonzero resultant force with zero net torque."
+  },
+  {
+    "question_id": 13,
+    "gpt-5_answer": "Step 1: Definitions\n- Torque magnitude: |τ| = |r × F| = r F sinθ.\n- Lever arm (moment arm): ℓ = r sinθ (perpendicular distance from pivot to line of action of F).\n\nStep 2: Relation\n- |r × F| = F · ℓ.\n\nStep 3: Conclusions\n- Comparing |r × F| to ℓ alone is not meaningful dimensionally (torque vs length).\n- Numerically: |r × F| < ℓ if F < 1 (in chosen units); = ℓ if F = 1; > ℓ if F > 1.\n- If the expression was r̂ × F (unit r), then |r̂ × F| = F sinθ and still cannot be compared to a length (ℓ)."
+  },
+  {
+    "question_id": 14,
+    "gpt-5_answer": "Step 1: For no rotation, the net torque about the pivot must be zero.\n\nStep 2: Let r1, r2 be distances from the pivot to the points of application, and θ1, θ2 the angles between each r and its force. Torques:\nτ = r1 F sinθ1 − r2 F sinθ2\n\nStep 3: Set τ = 0 ⇒ r1 sinθ1 = r2 sinθ2.\n\nThus, the rod will not rotate if:\n- The perpendicular lever arms are equal: r1⊥ = r2⊥ (with opposite senses), so the moments cancel; or\n- Each force’s line of action passes through the pivot (sinθ = 0), giving zero torque."
+  },
+  {
+    "question_id": 15,
+    "gpt-5_answer": "- Circumference = 400 m ⇒ one lap = 2π rad.\n- Time = 45 s.\n- Angular velocity: ω = Δθ/Δt = 2π / 45 ≈ 0.14 rad/s."
+  },
+  {
+    "question_id": 16,
+    "gpt-5_answer": "(a) Arc length s = rθ → θ = s/r = 3.0/1.5 = 2.0 rad (≈114.6°).\n\n(b) Constant-speed trip in Δt = 1.0 s → ω = θ/Δt = 2.0 rad/s.\n\n(c) Speed v = s/Δt = 3.0 m/s; centripetal acceleration a = v^2/r = 9/1.5 = 6.0 m/s², directed toward the center (no tangential component)."
+  },
+  {
+    "question_id": 17,
+    "gpt-5_answer": "Given:\n- Initial angular speed: ω0 = 10 rev/s = 20π rad/s ≈ 62.83 rad/s\n- Angular acceleration: α = −2.0 rad/s²\n- Time: t = 40 s\n\nKinematics (constant α):\nω = ω0 + αt = 62.83 − 2(40) = −17.17 rad/s ≈ −2.73 rev/s\n\nInterpretation:\n- Negative ω means the model predicts reversal of rotation, which is unphysical here.\n- The propeller would actually come to rest at t_stop = ω0/|α| = 62.83/2 ≈ 31.4 s, then stay at rest (no reverse drive).\n\nAnswer:\n- Computation gives −2.7 rev/s after 40 s, but that’s not reasonable.\n- Physically, the rotation rate after 40 s is 0 rev/s."
+  },
+  {
+    "question_id": 18,
+    "gpt-5_answer": "(a) ω(t) = 25.0 t. At t = 2.0 s: ω = 25.0 × 2.0 = 50 rad/s.\n\n(b) Angular acceleration α = dω/dt = d(25.0 t)/dt = 25.0 rad/s² (constant)."
+  },
+  {
+    "question_id": 19,
+    "gpt-5_answer": "Given: α = 5.0 rad/s², ω0 = 0, θ = 300 rad.\n\n(a) Use ω² = ω0² + 2αθ\nω = √(2αθ) = √(2·5.0·300) = √3000 ≈ 54.8 rad/s\n\n(b) Use t = (ω − ω0)/α\nt = 54.8 / 5.0 ≈ 10.95 s (≈ 11.0 s)"
+  },
+  {
+    "question_id": 20,
+    "gpt-5_answer": "Given constant angular acceleration.\n\nConvert to rad/s:\n- ω_i = 500 rev/min = 500·2π/60 = 50π/3 rad/s\n- ω_f = 1500 rev/min = 1500·2π/60 = 50π rad/s\n- t = 120 s\n\n(a) α = (ω_f − ω_i)/t = [50π − (50π/3)]/120 = (5π/18) rad/s² ≈ 0.873 rad/s²\n\n(b) θ = ω_i t + (1/2) α t²\n= (50π/3)(120) + 0.5(5π/18)(120)²\n= 2000π + 2000π = 4000π rad = 2000 revolutions."
+  },
+  {
+    "question_id": 21,
+    "gpt-5_answer": "Given: r = 1.0 m, α = 4.0 rad/s², ω0 = 2.0 rad/s, t = 10 s.\n\n(a) Angular velocity:\nω = ω0 + αt = 2.0 + (4.0)(10) = 42 rad/s.\n\n(b) Angle rotated:\nθ = ω0 t + 0.5 α t² = (2.0)(10) + 0.5(4.0)(10²) = 20 + 200 = 220 rad.\n\n(c) At t = 10 s (rim point):\n- Tangential speed: vt = rω = (1.0)(42) = 42 m/s.\n- Tangential acceleration: at = rα = (1.0)(4.0) = 4.0 m/s².\n(Optional: centripetal acceleration ac = v²/r = 42²/1.0 = 1764 m/s².)"
+  },
+  {
+    "question_id": 22,
+    "gpt-5_answer": "Given: α = 1.0 rad/s², ω0 = 2.0 rad/s, r = 10 cm = 0.10 m, t = 5.0 s.\n\n(a) Angular velocity:\nω = ω0 + αt = 2.0 + (1.0)(5.0) = 7.0 rad/s.\n\n(b) Angular displacement:\nθ = ω0 t + (1/2) α t² = (2.0)(5.0) + 0.5(1.0)(5.0)² = 10 + 12.5 = 22.5 rad\n≈ 22.5/(2π) ≈ 3.58 revolutions.\n\n(c) Tangential acceleration:\nat = α r = (1.0)(0.10) = 0.10 m/s²."
+  },
+  {
+    "question_id": 23,
+    "gpt-5_answer": "Given:\n- Rod length L = 20 cm ⇒ radius to each bead r = L/2 = 0.10 m (rotation about center).\n- Initial rest, target tangential speed v = 20 m/s in time t = 7 s.\n\nUse v = ω r and ω = α t ⇒ v = α r t ⇒ α = v / (r t).\n\nCompute:\nα = 20 / (0.10 × 7) = 20 / 0.7 ≈ 28.6 rad/s².\n\nAnswer: 28.6 rad/s²."
+  },
+  {
+    "question_id": 24,
+    "gpt-5_answer": "Given centripetal force provided by static friction:\nm ω^2 r ≤ μs m g ⇒ r ≤ μs g / ω^2\n\nPlug in: μs = 0.5, g = 9.8 m/s^2, ω = 2.5 rad/s\nr ≤ (0.5 × 9.8) / (2.5)^2 = 4.9 / 6.25 ≈ 0.78 m\n\nAnswer: about 0.78 m from the axis."
+  },
+  {
+    "question_id": 25,
+    "gpt-5_answer": "Given:\n- r = 20 m\n- ω0 = 0.5 rev/s = π rad/s\n- ωf = 0, Δt = 10 s\n\n(a) Angular acceleration:\nα = (ωf − ω0)/Δt = (0 − π)/10 = −π/10 ≈ −0.314 rad/s^2\n\n(b) Centripetal acceleration at t = 0:\nac = ω0^2 r = (π^2)(20) ≈ 197 m/s^2, directed radially inward.\n\n(c) Total linear acceleration at the blade tip on the +x-axis at t = 0:\n- Centripetal: ac = 197.4 m/s^2 toward −x\n- Tangential: at = α r = (−π/10)(20) = −2π ≈ −6.283 m/s^2 (−y direction)\n- Components: a = (−197.4 i − 6.28 j) m/s^2\n- Magnitude: |a| ≈ √(197.4^2 + 6.28^2) ≈ 197.5 m/s^2\n- Direction: ~1.8° below the −x-axis (toward −y)."
+  },
+  {
+    "question_id": 26,
+    "gpt-5_answer": "Given:\n- m = 40 kg, r = 3.0 m, μ_s = 0.6\n- Final ω_f = 0.4 rev/s = 0.4·2π = 2.513 rad/s in 10 s → α = 0.251 rad/s^2\n- At t = 5 s: ω = α t = 1.257 rad/s\n\nAccelerations at t = 5 s:\n- a_r = ω^2 r = (1.257)^2·3 = 4.74 m/s^2\n- a_t = α r = 0.251·3 = 0.754 m/s^2\n\nRequired friction:\n- F_req = m√(a_r^2 + a_t^2) = 40√(4.74^2 + 0.754^2) ≈ 192 N\n\nMaximum static friction:\n- F_max = μ_s m g = 0.6·40·9.8 = 235 N\n\nSince F_req < F_max, the child does not fall off before 5 s.\n\nCheck slip time:\n- Slip when r√(ω^4 + α^2) = μ g → ω ≈ 1.394 rad/s → t = ω/α ≈ 5.55 s.\nSo slipping would begin after about 5.6 s."
+  },
+  {
+    "question_id": 27,
+    "gpt-5_answer": "Step 1: Kinematics at r = 1.0 m\n- ω(t) = 2t rad/s\n- α = dω/dt = 2 rad/s² (constant)\n- Tangential acceleration: at = r α = 1·2 = 2 m/s² (constant)\n- Centripetal acceleration: ac = r ω² = 1·(2t)² = 4t² m/s²\n\nStep 2: Key values (t in s → ac in m/s²; at = 2 m/s²)\n- t = 0 → ac = 0\n- t = 0.5 → ac = 1\n- t = 1.0 → ac = 4\n- t = 2.0 → ac = 16\n- t = 3.0 → ac = 36\n\nStep 3: Intersection (ac = at)\n- 4t² = 2 ⇒ t² = 0.5 ⇒ t ≈ 0.707 s\n\nStep 4: Plot description (0 to 3 s)\n- at(t): horizontal line at 2 m/s²\n- ac(t): upward-opening parabola ac = 4t² starting at 0; crosses at line at t ≈ 0.707 s\n\nAnalysis:\n- For 0 ≤ t < 0.707 s: ac < at (tangential dominates)\n- At t ≈ 0.707 s: ac = at\n- For t > 0.707 s: ac > at (centripetal dominates and grows quadratically)"
+  },
+  {
+    "question_id": 28,
+    "gpt-5_answer": "(a) Spin about axis\n- Use I = 0.3307 MR^2, with M = 5.972×10^24 kg, R = 6.371×10^6 m\n  I ≈ 0.3307 × 5.972×10^24 × (6.371×10^6)^2 ≈ 8.01×10^37 kg·m^2\n- Angular speed ω = 2π / 86164 s ≈ 7.292×10^-5 s^-1\n- K = ½ I ω^2 ≈ 0.5 × 8.01×10^37 × (7.292×10^-5)^2 ≈ 2.1×10^29 J\n\n(b) Orbital motion around Sun\n- Orbital speed v ≈ 29.78 km/s = 2.978×10^4 m/s\n- K = ½ M v^2 ≈ 0.5 × 5.972×10^24 × (2.978×10^4)^2 ≈ 2.65×10^33 J\n\nAnswers: (a) ≈ 2.1×10^29 J, (b) ≈ 2.65×10^33 J."
+  },
+  {
+    "question_id": 29,
+    "gpt-5_answer": "Given:\n- v = 20.0 m/s at r = 0.480 m → ω = v/r = 20.0 / 0.480 = 41.7 s⁻¹\n- I = 0.500 kg·m²\n\nRotational kinetic energy:\nK = (1/2) I ω² = 0.5 × 0.500 × (41.7)² ≈ 0.25 × 1736 ≈ 4.34 × 10² J\n\nAnswer: 434 J (≈ 4.34 × 10² J)."
+  },
+  {
+    "question_id": 30,
+    "gpt-5_answer": "(a) Vertical fall time: t = sqrt(2h/g) = sqrt(600/9.8) ≈ 7.83 s\n- Horizontal velocity: vx = 40.0 m/s (constant)\n- Vertical velocity at impact: vy = g t ≈ 9.8 × 7.83 ≈ 76.7 m/s downward\n- Speed magnitude: v = sqrt(vx² + vy²) ≈ sqrt(40.0² + 76.7²) ≈ 86.5 m/s\n- Direction: arctan(vy/vx) ≈ arctan(76.7/40.0) ≈ 62.5° below horizontal\n\n(b) Rotation rate unchanged (no torque, neglect air resistance):\n- 20 rev/s = 2π × 20 ≈ 125.7 rad/s at impact."
+  },
+  {
+    "question_id": 31,
+    "gpt-5_answer": "Given:\n- M = 2×10^30 kg\n- R = 10 km = 1×10^4 m\n- T = 0.02 s → ω = 2π/T = 100π ≈ 314.16 rad/s\n\nMoment of inertia (uniform sphere): I = (2/5)MR^2 = 0.4 × 2×10^30 × (1×10^4)^2 = 8×10^37 kg·m^2\n\nRotational kinetic energy:\nK = (1/2) I ω^2 = 0.5 × 8×10^37 × (314.16)^2\n= 4×10^37 × 9.8696×10^4 ≈ 3.95×10^42 J\n\nAnswer: ≈ 4×10^42 J."
+  },
+  {
+    "question_id": 32,
+    "gpt-5_answer": "(a) Moments of inertia about the central axis:\n- Solid disk: I_disk = (1/2) M R^2 = (1/2)(2.0)(0.50^2) = 0.25 kg·m^2\n- Annular cylinder: I_ann = (1/2) M (R_o^2 + R_i^2) = (1/2)(1.0)(0.30^2 + 0.20^2) = 0.065 kg·m^2\nTotal: I_total = 0.25 + 0.065 = 0.315 kg·m^2\n\n(b) ω = 10 rev/s = 20π rad/s\nK = (1/2) I ω^2 = (1/2)(0.315)(20π)^2 ≈ 6.22 × 10^2 J"
+  },
+  {
+    "question_id": 33,
+    "gpt-5_answer": "- For a uniform rod of length L, mass m: I_cm (about center, perpendicular to rod) = (1/12) m L^2.\n- The axis is at L/6 from one end; the center is at L/2. Distance d = L/2 − L/6 = L/3.\n- By parallel axis theorem: I = I_cm + m d^2 = (1/12)mL^2 + m(L/3)^2 = (1/12 + 1/9)mL^2 = (7/36)mL^2.\n\nAnswer: I = (7/36) m L^2."
+  },
+  {
+    "question_id": 34,
+    "gpt-5_answer": "Given:\n- m = 1.0 kg, L = 2.0 m, released from rest at θ = 60° above horizontal\n- I about end for uniform rod: I = (1/3) mL^2\n\n1) Drop in CM height from initial to horizontal:\nΔh = (L/2) sin 60°\n\n2) Energy conservation:\nm g Δh = (1/2) I ω^2\nm g (L/2) sin 60° = (1/2)(1/3 m L^2) ω^2\n→ ω^2 = 3 g sin 60° / L\n\n3) Numerics:\nsin 60° = √3/2 ≈ 0.866\nω^2 ≈ 3(9.8)(0.866)/2 ≈ 12.73 → ω ≈ 3.57 rad/s\n\n4) Tip speed v = ω L ≈ 3.57 × 2.0 ≈ 7.14 m/s\n\nAnswer: approximately 7.1 m/s."
+  },
+  {
+    "question_id": 35,
+    "gpt-5_answer": "Given:\n- Radius R = 10 cm = 0.10 m\n- Initial COM speed v0 = 15 cm/s = 0.15 m/s\n- Solid sphere: I_cm = (2/5)MR^2 ⇒ about tangent pivot I_p = I_cm + MR^2 = (7/5)MR^2\n- Relation v0 = ω0 R\n\nEnergy conservation from bottom to maximum angle θ:\n(1/2) I_p ω0^2 = MgR (1 − cos θ)\n\nSubstitute:\n(1/2)·(7/5)MR^2·(v0^2/R^2) = MgR(1 − cos θ)\n⇒ (7/10) M v0^2 = M g R (1 − cos θ)\n⇒ 1 − cos θ = (7 v0^2)/(10 g R)\n\nNumerics:\n1 − cos θ = (7·0.15^2)/(10·9.8·0.10) ≈ 0.01607\ncos θ ≈ 0.98393 ⇒ θ ≈ 0.18 rad ≈ 10.3°\n\nAnswer: θ ≈ 10 degrees."
+  },
+  {
+    "question_id": 36,
+    "gpt-5_answer": "Given: \n- Small wheel radius r1 = 0.30 m, pull F1 = 50 N\n- Large wheel radius r2 = 0.50 m, pull F2 = ?\n- No rotation ⇒ net torque about axis = 0\n\nBalance torques (opposite directions):\nF1 r1 = F2 r2\nF2 = (F1 r1) / r2 = (50 × 0.30) / 0.50 = 30 N\n\nAnswer: 30 N (opposite sense to the 50 N pull)."
+  },
+  {
+    "question_id": 37,
+    "gpt-5_answer": "(a) τ = r F sinθ = (0.850 m)(55.0 N) sin 90° = 46.8 N·m (about the hinge axis; direction opens the door).\n\n(b) No. For a single vertical hinge axis, torque depends only on the perpendicular distance to that axis (0.850 m) and the force, not on the height where you push."
+  },
+  {
+    "question_id": 38,
+    "gpt-5_answer": "Given:\n- m1 = 5.0 kg on frictionless 30° incline\n- Inner radius r1 = 0.20 m (attached to m1)\n- Outer radius r2 = 0.30 m (attached to hanging mass M)\n\n1) For the block on the incline (static):\nT1 = m1 g sin 30° = 5.0 × 9.8 × 0.5 = 24.5 N\n\n2) For no rotation of the pulley (net torque = 0):\nT1 r1 = T2 r2\n24.5 × 0.20 = (M g) × 0.30\n\n3) Solve for M (g cancels if preferred via T1 = 5g·0.5):\nM = (T1 r1) / (g r2) = [(5g × 0.5) × 0.20] / (g × 0.30) = 0.5 / 0.30 = 1.67 kg\n\nAnswer: 1.67 kg (approximately)."
+  },
+  {
+    "question_id": 39,
+    "gpt-5_answer": "Given Mz = x Fy − y Fx for each force (position r = (x, y)):\n\n- F1: at (3, 0), (0, −3) N → M1 = 3(−3) − 0 = −9 N·m\n- F2: at (−2, 0), 2 N at 30° left of +y:\n  Fx = −2 sin30 = −1 N, Fy = 2 cos30 = √3 ≈ 1.732 N\n  → M2 = (−2)(1.732) − 0 = −3.464 N·m\n- F3: at origin → M3 = 0\n- F4: at (0, −2), 1.8 N at 20° right of −y:\n  Fx = 1.8 sin20 ≈ 0.616 N, Fy = −1.8 cos20 ≈ −1.692 N\n  → M4 = 0 − (−2)(0.616) = +1.232 N·m\n\nTotal torque about z (out of page positive):\nMz ≈ −9 − 3.464 + 0 + 1.232 = −11.23 N·m\n\nAnswer: −11.2 N·m (clockwise/into the page)."
+  },
+  {
+    "question_id": 40,
+    "gpt-5_answer": "Given:\n- Rod: m_r = 1 kg, L = 1 m → r_r = L/2 = 0.5 m\n- Sphere: m_s = 0.5 kg, R = 0.3 m → r_s = L + R = 1.3 m\n- g = 9.8 m/s², θ = 30°, sinθ = 0.5\n\nTorque about pivot (restoring, take negative for θ from vertical):\nτ = −[m_r g r_r + m_s g r_s] sinθ\n= −[(1)(9.8)(0.5) + (0.5)(9.8)(1.3)](0.5)\n= −[(4.9) + (6.37)](0.5)\n= −(11.27)(0.5)\n= −5.64 N·m\n\nAnswer: −5.64 N·m (restoring torque; magnitude 5.64 N·m)."
+  },
+  {
+    "question_id": 41,
+    "gpt-5_answer": "Step 1: Take torques about the wall support; clockwise positive.\n- Beam (uniform): weight = 2.0×9.8 = 19.6 N acting at 1.5 m → τ_beam = 19.6×1.5 = 29.4 N·m (clockwise).\n- Block: weight = 1.0×9.8 = 9.8 N. Its center is 0.1 m in from the end, so at 2.9 m → τ_block = 9.8×2.9 = 28.42 N·m (clockwise).\n\nStep 2: Sum torques:\nτ_total = 29.4 + 28.42 = 57.82 ≈ 57.8 N·m (clockwise)."
+  },
+  {
+    "question_id": 42,
+    "gpt-5_answer": "Torque τ = r × F.\n\nr = (-2, 4, 0) m, F = (5, -2, 1) N.\n\nτ = | i   j   k |\n    | -2  4   0 |\n    |  5 -2   1 |\n\nτx = 4·1 − 0·(−2) = 4\nτy = −[ (−2)·1 − 0·5 ] = 2\nτz = (−2)(−2) − 4·5 = 4 − 20 = −16\n\nTherefore, τ = (4 î + 2 ĵ − 16 k) N·m."
+  },
+  {
+    "question_id": 43,
+    "gpt-5_answer": "(a) Torque: τ = rF = (0.280 m)(180 N) = 50.4 N·m.\n\n(b) Moment of inertia (solid disk): I = (1/2)MR^2 = 0.5(75.0 kg)(0.280 m)^2 = 2.94 kg·m^2.\nAngular acceleration: α = τ/I = 50.4 / 2.94 ≈ 17.1 rad/s^2.\n\n(c) Friction torque: τ_f = rF = (0.0150 m)(20.0 N) = 0.300 N·m (opposes motion).\nNet torque: τ_net = 50.4 − 0.300 = 50.1 N·m.\nAngular acceleration: α = τ_net/I = 50.1 / 2.94 ≈ 17.0 rad/s^2."
+  },
+  {
+    "question_id": 44,
+    "gpt-5_answer": "Given:\n- Moment of inertia I = 4.0 kg·m²\n- Initial angular velocity ω₀ = 0\n- Final angular velocity ω = 20.0 rad/s\n- Time t = 10.0 s\n\n1) Angular acceleration: α = (ω − ω₀)/t = 20.0/10.0 = 2.0 rad/s²\n2) Torque: τ = I α = 4.0 × 2.0 = 8.0 N·m\n\nAnswer: 8.0 N·m"
+  },
+  {
+    "question_id": 45,
+    "gpt-5_answer": "Given:\n- I = 100.0 kg·m²\n- ω₀ = 500.0 rev/min = 500×2π rad/min = 1000π rad/min = (1000π/60) rad/s ≈ 52.36 rad/s\n- Time to stop t = 2.0 min = 120 s\n\nAngular deceleration:\nα = (0 − ω₀)/t = −52.36/120 ≈ −0.436 rad/s²\n\nFrictional torque:\nτ = Iα = 100.0 × (−0.436) ≈ −43.6 N·m\n\nAnswer: Frictional torque magnitude ≈ 43.6 N·m (opposes motion)."
+  },
+  {
+    "question_id": 46,
+    "gpt-5_answer": "Given: starts from rest, uniform torque for t = 6 days → ω = 1 rev/day.\n\n(a) Angular acceleration:\n- ω = 2π/86400 = 7.2722×10^-5 s^-1\n- t = 6×86400 = 5.184×10^5 s\n- α = ω/t = 7.2722×10^-5 / 5.184×10^5 ≈ 1.40×10^-10 rad/s^2\n\n(b) Torque (use Earth’s I ≈ 0.331 MR^2; M = 5.97×10^24 kg, R = 6.37×10^6 m):\n- I ≈ 0.331(5.97×10^24)(6.37×10^6)^2 ≈ 8.02×10^37 kg·m^2\n- τ = Iα ≈ (8.02×10^37)(1.40×10^-10) ≈ 1.13×10^28 N·m\n\n(c) Tangential force at equator:\n- F = τ/R ≈ 1.13×10^28 / 6.37×10^6 ≈ 1.8×10^21 N\n\nNotes:\n- If you assume a uniform solid sphere (I = 0.4MR^2), τ ≈ 1.36×10^28 N·m and F ≈ 2.1×10^21 N."
+  },
+  {
+    "question_id": 47,
+    "gpt-5_answer": "Given:\n- m = 3 kg, θ = 45°, μk = 0.4, g = 9.8 m/s²\n- Pulley: disk, M = 1 kg, R = 0.5 m → I = (1/2)MR² = 0.125 kg·m²\n\nEquations:\n- Along incline: m a = m g sinθ − μk m g cosθ − T\n- Pulley: T R = I α = I (a/R) ⇒ T = (I/R²) a\n\nCombine:\nm a + (I/R²) a = m g (sinθ − μk cosθ)\na = [m g (sinθ − μk cosθ)] / [m + I/R²]\n\nCompute:\n- sin45 = cos45 = 0.7071 → sinθ − μk cosθ = 0.7071(1 − 0.4) = 0.4243\n- I/R² = 0.125 / 0.25 = 0.5\n- a = [3·9.8·0.4243] / (3 + 0.5) ≈ 12.47 / 3.5 ≈ 3.56 m/s²\n\nAnswer: 3.6 m/s² down the incline."
+  },
+  {
+    "question_id": 48,
+    "gpt-5_answer": "Answer:\n(a) g downward\n(b) g downward\n\nSteps:\n- Forces: gravity Mg at center; tension T (horizontal) at bottom end. I_CM = (1/12) M L^2.\n- Translational: M a_CM = (-T, -Mg).\n- Rotational about CM: τ = (L/2)T (out of plane), so α = -6T/(M L).\n- Kinematic constraint at bottom (string taut, initially horizontal): a_bottom,x = 0 = a_CM,x + (α × r_bottom)_x.\n  With r_bottom = (0, -L/2, 0), this gives 0 = -T/M + (L/2)α ⇒ substituting α yields T = 0 ⇒ α = 0.\n- Hence a_CM = (0, -g), and with α = 0, every point has the same acceleration: g downward."
+  },
+  {
+    "question_id": 49,
+    "gpt-5_answer": "Given P = τ ω.\n\n- Angular speed: ω = 20 rev/min × (2π rad/rev) × (1/60) = (2π/3) rad/s ≈ 2.094 rad/s\n- Torque: τ = P/ω = (2.0×10^6 W) / (2.094 s⁻¹) ≈ 9.55×10^5 N·m\n\nAnswer: ≈ 9.6×10^5 N·m (about 0.96 MN·m)."
+  },
+  {
+    "question_id": 50,
+    "gpt-5_answer": "(a)\n- ω = 1.5×10^3 rev/min × (2π rad/rev) / 60 ≈ 50π rad/s ≈ 157.1 rad/s\n- I = (1/2)MR^2 = (1/2)(10)(0.12)^2 = 0.072 kg·m^2\n- K = (1/2)Iω^2 = 0.5(0.072)(157.1)^2 ≈ 8.9×10^2 J\n\n(b)\n- Friction force: f_k = μ_k N = 0.80×5.0 = 4.0 N\n- Torque: τ = f_k R = 4.0×0.12 = 0.48 N·m\n- Work to stop: τθ = K ⇒ θ = K/τ ≈ 888/0.48 ≈ 1.85×10^3 rad\n- Turns: N = θ/(2π) ≈ 1.85×10^3 / 6.283 ≈ 2.95×10^2 turns\n\nAnswers: (a) ≈ 8.9×10^2 J, (b) ≈ 2.95×10^2 turns."
+  },
+  {
+    "question_id": 51,
+    "gpt-5_answer": "Given τ = 2.0×10^3 N·m, from rest to ω_f = 1000 rev/min = 104.72 rad/s in Δt = 6.0 s.\n\n(a) With constant α: α = Δω/Δt = 104.72/6.0 = 17.45 rad/s².\nI = τ/α = (2.0×10^3)/17.45 ≈ 1.15×10^2 kg·m².\n\n(b) ω(3.0 s) = αt = 17.45×3.0 ≈ 52.36 rad/s.\nPower P = τω = (2.0×10^3)(52.36) ≈ 1.05×10^5 W.\n\nAnswers:\n(a) ≈ 1.15×10^2 kg·m²\n(b) ≈ 1.05×10^5 W"
+  },
+  {
+    "question_id": 52,
+    "gpt-5_answer": "Solution (concise):\n\n- Use energy conservation about the pivot (no slip).\n- Drop in potential energy of center of mass: ΔU = M g (L/2).\n- Rotational KE about lower end: K = (1/2) I ω^2 with I_end = (1/3) M L^2.\n- Set ΔU = K:\n  M g (L/2) = (1/2)(1/3) M L^2 ω^2 ⇒ ω^2 = 3g/L.\n- Speed of top end: v = ω L = sqrt(3 g L).\n\nAnswer: v = sqrt(3 g L)."
+  },
+  {
+    "question_id": 53,
+    "gpt-5_answer": "(a) Equations:\n- For block (down the plane positive): m a = m g sinθ − T\n- Pulley (no slip): T R = I α, with α = a/R ⇒ T = I a / R^2\n\nFor a uniform disk: I = (1/2) M R^2 ⇒ I/R^2 = (1/2)M = 0.5 kg\n\nThus: a(m + I/R^2) = m g sinθ\n→ a = [m g sinθ]/[m + I/R^2] = [2·9.8·sin40°]/[2 + 0.5] ≈ 12.59/2.5 ≈ 5.0 m/s^2 down the plane.\n\n(b) Tension: T = (I/R^2) a = 0.5·5.0 ≈ 2.5 N.\nWork by cord on pulley over s = 0.50 m: W = T s ≈ 2.5·0.50 ≈ 1.25 J (positive)."
+  },
+  {
+    "question_id": 54,
+    "gpt-5_answer": "Given:\n- Initial angular speed ω0 = 3.0 rev/s\n- Angular deceleration α = −0.3 rev/s²\n- Final angular speed ω = 0\n\nUse ω = ω0 + α t ⇒ 0 = 3.0 + (−0.3) t\nt = 3.0 / 0.3 = 10 s\n\nAnswer: 10 seconds."
+  },
+  {
+    "question_id": 55,
+    "gpt-5_answer": "(a) Initial angular speed:\nω0 = 33 1/3 rpm = (5/9) rps = (10π/9) rad/s\n\nTime t = 60 s\nα = (ω − ω0)/t = (0 − ω0)/60 = −(10π/9)/60 = −π/54 rad/s² ≈ −0.0582 rad/s²\n\n(b) Angular displacement while stopping:\nθ = (ω0 + 0)/2 × t = (ω0/2) × 60 = 30ω0 = 30 × (10π/9) = 100π/3 rad\n\nRevolutions: N = θ/(2π) = (100π/3)/(2π) = 50/3 ≈ 16.67 revs"
+  },
+  {
+    "question_id": 56,
+    "gpt-5_answer": "Given:\n- Spin rate = 500 rpm\n- Time = 3 minutes → 1500 revolutions\n- Radius r = 4.3 cm\n\nCircumference = 2πr = 2π(4.3 cm) = 8.6π cm\n\nTotal distance = (circumference) × (revolutions) = (8.6π cm) × 1500 = 12,900π cm ≈ 40,537 cm ≈ 405 m\n\nAnswer: about 4.05 × 10^2 meters."
+  },
+  {
+    "question_id": 57,
+    "gpt-5_answer": "(a) Model as a solid cylinder about its axis:\nI = (1/2) M R^2 = (1/2)(60.0)(0.110^2) = 0.363 kg·m^2.\n\n(b) Body (cylinder) plus two arms (thin rods about one end):\n- Cylinder: I = (1/2) M R^2 = (1/2)(52.5)(0.110^2) = 0.3176 kg·m^2.\n- Each arm: I = (1/3) m L^2 = (1/3)(3.75)(0.900^2) = 1.0125 kg·m^2.\n- Two arms: 2.025 kg·m^2.\n\nTotal: I ≈ 0.3176 + 2.025 = 2.34 kg·m^2."
+  },
+  {
+    "question_id": 58,
+    "gpt-5_answer": "Given:\n- Rod: L = 2 m, m_r = 3 kg\n- Sphere: m_s = 1 kg, R = 0.3 m\n- Release angle θ = 30°\n- Assume the sphere is attached at the rod’s end, so its center is at r_s = L + R = 2.3 m\n- Rod COM at r_r = L/2 = 1 m\n- g = 9.81 m/s²\n\n1) Total moment of inertia about pivot:\n- Rod: I_r = (1/3) m_r L² = (1/3)(3)(2²) = 4 kg·m²\n- Sphere: I_s = I_cm + m_s r_s² = (2/5)m_s R² + m_s(2.3)²\n= (2/5)(1)(0.3²) + 1·(2.3)² = 0.036 + 5.29 = 5.326 kg·m²\n- I_total = 4 + 5.326 = 9.326 kg·m²\n\n2) Drop in potential energy from 30° to bottom:\nΔU = g [m_r r_r + m_s r_s] (1 − cos θ)\n= 9.81 [3·1 + 1·2.3] (1 − cos 30°)\n= 9.81 (5.3)(1 − 0.8660) ≈ 9.81·5.3·0.134 ≈ 6.97 J\n\n3) Energy conservation: (1/2) I ω² = ΔU\nω = sqrt(2ΔU / I) = sqrt(2·6.97 / 9.326) ≈ sqrt(1.49) ≈ 1.22 rad/s\n\nAnswer: ω ≈ 1.22 rad/s."
+  },
+  {
+    "question_id": 59,
+    "gpt-5_answer": "Given torque balance (net torque = 0):\n\n- Child 1 torque: τ1 = F1 r1 = 17.5 N × 0.600 m = 10.5 N·m\n- Child 2 torque: τ2 = F2 r2 = F2 × 0.450 m\n\nSet τ1 = τ2 ⇒ F2 = 10.5 / 0.450 = 23.3 N\n\nAnswer: 23.3 N (applied to produce opposite torque)."
+  },
+  {
+    "question_id": 60,
+    "gpt-5_answer": "Given:\n- Applied torque: τ = 0.95 × 200 = 190 N·m\n- Moments of inertia:\n  - Per wheel:\n    - Disk: I = (1/2) m r^2 = 0.5(15)(0.180^2) = 0.243 kg·m^2\n    - Tire walls (annulus): I = (1/2) m (rin^2 + rout^2) = 0.5(2)(0.180^2 + 0.320^2) = 0.1348 kg·m^2\n    - Tread (hoop): I = m r^2 = 10(0.330^2) = 1.089 kg·m^2\n    - Per wheel total: 1.4668 kg·m^2\n  - Two wheels: 2 × 1.4668 = 2.9336 kg·m^2\n  - Axle (solid rod): I = (1/2)MR^2 = 0.5(14)(0.020^2) = 0.0028 kg·m^2\n  - Drive shaft (solid rod): I = 0.5(30)(0.032^2) = 0.01536 kg·m^2\n\nTotal I = 2.9336 + 0.0028 + 0.01536 = 2.95176 kg·m^2\n\nAngular acceleration: α = τ / I = 190 / 2.95176 ≈ 64.4 rad/s^2\n\nAnswer: 64.4 rad/s^2"
+  },
+  {
+    "question_id": 61,
+    "gpt-5_answer": "(a) ω(t) = ∫α dt = ∫(2 − 3t) dt = 2t − 1.5 t² rad/s (ω(0)=0).\n\n(b) θ(t) = ∫ω dt = ∫(2t − 1.5 t²) dt = t² − 0.5 t³ rad (θ(0)=0).\n\n(c) θ(10) = 10² − 0.5·10³ = 100 − 500 = −400 rad.\n\n(d) Orientation at t=10 s: −400 mod 2π ≈ 2.124 rad ≈ 122° from the 0° reference (same physical direction)."
+  },
+  {
+    "question_id": 62,
+    "gpt-5_answer": "Answer: I = (3/5) m R^2\n\nSteps:\n- Let σ(r) = α r. Normalize to total mass m:\n  m = ∫σ dA = ∫_0^R ∫_0^{2π} α r (r dr dθ) = α 2π ∫_0^R r^2 dr = α 2π R^3/3\n  ⇒ α = 3m/(2π R^3) = 3m/(2 A R)\n- Moment of inertia:\n  I = ∫ r^2 dm = ∫ r^2 σ dA = ∫_0^R ∫_0^{2π} r^2 (α r)(r dr dθ)\n    = α 2π ∫_0^R r^4 dr = α 2π R^5/5\n    = (3m/(2π R^3)) 2π R^5/5 = (3/5) m R^2."
+  },
+  {
+    "question_id": 63,
+    "gpt-5_answer": "(a) Work by the applied force goes entirely into rotational KE.\n- s = 5.0 m, r = 0.25 m → θ = s/r = 20 rad\n- Work W = F s = 40 × 5.0 = 200 J\n- 1/2 I ω² = W → ω = sqrt(2W/I) = sqrt(400/6.0) ≈ 8.16 rad/s\n\n(b) With a hanging 40-N weight (mass m = 40/9.8 kg), gravitational PE loss splits into rotational + translational KE, with v = r ω.\n- m g h = (1/2) I ω² + (1/2) m (r ω)²\n- ω = sqrt[2 m g h / (I + m r²)] = sqrt[2(40/9.8)(9.8)(5) / (6.0 + (40/9.8)(0.25)²)] ≈ 8.00 rad/s\n\nAnswers: (a) 8.16 rad/s, (b) 8.00 rad/s."
+  }
+]

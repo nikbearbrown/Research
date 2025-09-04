@@ -1,7 +1,7 @@
 import re
 import fitz  # pip install pymupdf
 
-QUESTION_RE = re.compile(r"^\s*\d+\.\s*")  # lines like "1." or "45."
+QUESTION_RE = re.compile(r"^\s*\d+\.\s*")  
 
 def _gather_lines_and_images(page):
     """
@@ -138,21 +138,23 @@ def extract_qna_by_solution(
 
             q_fname = f"page{pi+1}_sol{k}_question.png"
             a_fname = f"page{pi+1}_sol{k}_answer.png"
-            q_pix.save(q_fname)
-            a_pix.save(a_fname)
+            save_path = "Evaluating_LLM_Performance_on_Physics_Problems/University_Physics_Vol_1_Student_Resources/Chapter_10_QA/"
+            q_pix.save(save_path+q_fname)
+            a_pix.save(save_path+a_fname)
 
-            # (optional) sanity print
-            # q_text = page.get_text("text", clip=q_rect).strip()
-            # a_text = page.get_text("text", clip=a_rect).strip()
-            # print(f"[Page {pi+1} | hit {k}] Q: {q_text[:120]} ...")
-            # print(f"[Page {pi+1} | hit {k}] A: {a_text[:120]} ...")
+def get_pdf_page_count(file_path):
+    with fitz.open(file_path) as pdf_file:
+        return pdf_file.page_count
 
 if __name__ == "__main__":
+    path = "Evaluating_LLM_Performance_on_Physics_Problems/University_Physics_Vol_1_Student_Resources/UniversityPhysicsVolume1-Ch10.docx (1).pdf"
+    num_of_pages = get_pdf_page_count(path)
     extract_qna_by_solution(
-        pdf_path="/content/UniversityPhysicsVolume1-Ch10.docx.pdf",
-        dpi=450,            # sharper; helps thin math glyphs
+        pdf_path=path,
+        dpi=450,            
         search_text="Solution",
         margin_pt=10,
         extra_down=0,
-        pages=[4],        # or e.g. [14]
+        pages="all",       
     )
+    

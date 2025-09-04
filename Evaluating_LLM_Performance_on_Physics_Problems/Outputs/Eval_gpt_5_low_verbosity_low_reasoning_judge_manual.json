@@ -1,0 +1,18 @@
+[
+  {
+    "question": 13,
+    "answer": "Step 1: Lever arm (moment arm) = perpendicular distance from pivot to the force’s line of action = r sinθ, where r = |r| and θ is the angle between r and F.\n\nStep 2: Since 0 ≤ sinθ ≤ 1, we have r sinθ ≤ r.\n\nStep 3: Therefore |r| can never be less than the lever arm (r < r sinθ is impossible). Equality occurs only when sinθ = 1 → θ = 90°.\n\nFinal answer: |r| cannot be less than the lever arm; it can be equal only when θ = 90°."
+  },
+  {
+    "question": 39,
+    "answer": "- Take +z (out of the page) as positive. τz = xFy − yFx for each force.\n\nF2 at r = (0, 2 m), magnitude 2 N at 210°:\n- Fx = 2 cos210° = −1.732 N, Fy = 2 sin210° = −1.0 N\n- τ2 = −(2)(Fx) = +3.464 N·m\n\nF4 at r = (2 m, 0), magnitude 1.8 N, 20° to the right of vertical downward:\n- Fx = 1.8 sin20° = 0.616 N, Fy = −1.8 cos20° = −1.691 N\n- τ4 = (2)(Fy) = −3.382 N·m\n\nF1 applied at r = 3 m, perpendicular to r, magnitude 3 N, giving clockwise torque:\n- τ1 = −(3 m)(3 N) = −9.0 N·m\n\nF3 applied at the origin → τ3 = 0.\n\nNet torque: τz = −9.0 + 3.464 − 3.382 ≈ −8.92 N·m (into the page).\n\nFinal answer: −8.9 N·m."
+  },
+  {
+    "question": 48,
+    "answer": "- After the right string is cut, the left end is a fixed pivot. Initial angular speed ω = 0.\n- Torque about left end: τ = mg(L/2).\n- Moment of inertia about left end: I = (1/3)mL^2.\n- Angular acceleration: α = τ/I = [mg(L/2)] / [(1/3)mL^2] = 3g/(2L).\n\nLinear accelerations (a = α r, since ω = 0 and pivot fixed):\n- (a) Free (right) end, r = L: a = αL = 3g/2 downward.\n- (b) Middle, r = L/2: a = α(L/2) = 3g/4 downward.\n\nFinal numeric answers:\n(a) 1.5 g downward\n(b) 0.75 g downward"
+  },
+  {
+    "question": 62,
+    "answer": "- Surface density: σ(r) = m r /(A R), with A = πR^2.\n- Differential mass: dm = σ dA = σ 2πr dr.\n- Moment of inertia: I = ∫ r^2 dm = ∫_0^R r^2 σ 2πr dr\n  = 2π m /(A R) ∫_0^R r^4 dr\n  = 2π m /(A R) · (R^5/5)\n  = 2π m R^4 /(5A)\n  = 2π m R^4 /(5πR^2)\n  = (2/5) m R^2.\n\nFinal answer: I = (2/5) m R^2."
+  }
+]
