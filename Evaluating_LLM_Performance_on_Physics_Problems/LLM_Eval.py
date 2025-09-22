@@ -89,38 +89,38 @@ with open(physics_data_path, "r", encoding="utf-8") as f:
 # 62: Answered incorrectly
 
 # Prompting gpt 5 model with question images
-client = OpenAI(api_key=OPENAI_API_KEY)
+# client = OpenAI(api_key=OPENAI_API_KEY)
 
-# Your local image
-imgs = [13,39,48,62]
-ans = []
-for img in imgs:
-    q_img_path = f"/Users/akshaysyal/Medhavi_LLM_Eval/Research/Evaluating_LLM_Performance_on_Physics_Problems/Dataset/{img}.png"
-    mime, _ = mimetypes.guess_type(q_img_path)
-    mime = mime or "image/png"
-    with open(q_img_path, "rb") as f:
-        b64 = base64.b64encode(f.read()).decode("utf-8")
-    data_url = f"data:{mime};base64,{b64}"
+# # Your local image
+# imgs = [13,39,48,62]
+# ans = []
+# for img in imgs:
+#     q_img_path = f"/Users/akshaysyal/Medhavi_LLM_Eval/Research/Evaluating_LLM_Performance_on_Physics_Problems/Dataset/{img}.png"
+#     mime, _ = mimetypes.guess_type(q_img_path)
+#     mime = mime or "image/png"
+#     with open(q_img_path, "rb") as f:
+#         b64 = base64.b64encode(f.read()).decode("utf-8")
+#     data_url = f"data:{mime};base64,{b64}"
 
-    response = client.responses.create(
-        model="gpt-5",
-        input=[{
-            "role": "user",
-            "content": [
-                {"type": "input_text",
-                "text": "Solve step-by-step, be concise but correct. Give the final numeric answer at the end."},
-                {"type": "input_image",
-                "image_url": data_url}
-            ]
-        }],
-        reasoning={"effort": "low"},     # keep reasoning light
-        text={"verbosity": "low"},       # keep outputs terse
-    )
-    ans.append({"question":img,"answer":response.output_text})
-out_dir = "/Users/akshaysyal/Medhavi_LLM_Eval/Research/Evaluating_LLM_Performance_on_Physics_Problems/Outputs"
-out_path = os.path.join(out_dir, f"Eval_gpt_5_low_verbosity_low_reasoning_judge_manual.json")
-with open(out_path, "w", encoding="utf-8") as f:
-    json.dump(ans, f, ensure_ascii=False, indent=2)
+#     response = client.responses.create(
+#         model="gpt-5",
+#         input=[{
+#             "role": "user",
+#             "content": [
+#                 {"type": "input_text",
+#                 "text": "Solve step-by-step, be concise but correct. Give the final numeric answer at the end."},
+#                 {"type": "input_image",
+#                 "image_url": data_url}
+#             ]
+#         }],
+#         reasoning={"effort": "low"},     # keep reasoning light
+#         text={"verbosity": "low"},       # keep outputs terse
+#     )
+#     ans.append({"question":img,"answer":response.output_text})
+# out_dir = "/Users/akshaysyal/Medhavi_LLM_Eval/Research/Evaluating_LLM_Performance_on_Physics_Problems/Outputs"
+# out_path = os.path.join(out_dir, f"Eval_gpt_5_low_verbosity_low_reasoning_judge_manual.json")
+# with open(out_path, "w", encoding="utf-8") as f:
+#     json.dump(ans, f, ensure_ascii=False, indent=2)
 
 
     
