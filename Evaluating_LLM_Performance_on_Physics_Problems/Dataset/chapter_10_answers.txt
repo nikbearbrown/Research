@@ -1,0 +1,380 @@
+[
+  {
+    "question": "A clock is mounted on the wall. As you look at it, what is the direction of the angular velocity vector of the second hand?",
+    "solution": "The second hand rotates clockwise, so by the right-hand rule, the angular velocity vector is into the wall.",
+    "image_description": "",
+    "question_id": 1
+  },
+  {
+    "question": "A baseball bat is swung. Do all points on the bat have the same angular velocity? The same tangential speed?",
+    "solution": "They have the same angular velocity. Points further out on the bat have greater tangential speeds.",
+    "image_description": "",
+    "question_id": 2
+  },
+  {
+    "question": "If a rigid body has a constant angular acceleration, what is the functional form of the angular velocity in terms of the time variable?",
+    "solution": "straight line, linear in time variable",
+    "image_description": "",
+    "question_id": 3
+  },
+  {
+    "question": "If the angular acceleration of a rigid body is zero, what is the functional form of the angular velocity?",
+    "solution": "constant",
+    "image_description": "",
+    "question_id": 4
+  },
+  {
+    "question": "Explain why centripetal acceleration changes the direction of velocity in circular motion but not its magnitude.",
+    "solution": "The centripetal acceleration vector is perpendicular to the velocity vector.",
+    "image_description": "",
+    "question_id": 5
+  },
+  {
+    "question": "Suppose a piece of food is on the edge of a rotating microwave oven plate. Does it experience nonzero tangential acceleration, centripetal acceleration, or both when: (a) the plate starts to spin faster? (b) The plate rotates at constant angular velocity? (c) The plate slows to a halt?",
+    "solution": "a. both; b. nonzero centripetal acceleration; c. both",
+    "image_description": "",
+    "question_id": 6
+  },
+  {
+    "question": "A solid sphere is rotating about an axis through its center at a constant rotation rate. Another hollow sphere of the same mass and radius is rotating about its axis through the center at the same rotation rate. Which sphere has a greater rotational kinetic energy?",
+    "solution": "The hollow sphere, since the mass is distributed further away from the rotation axis.",
+    "image_description": "",
+    "question_id": 7
+  },
+  {
+    "question": "A discus thrower rotates with a discus in his hand before letting it go. (a) How does his moment of inertia change after releasing the discus? (b) What would be a good approximation to use in calculating the moment of inertia of the discus thrower and discus?",
+    "solution": "a. It decreases. b. The arms could be approximated with rods and the discus with a disk. The torso is near the axis of rotation so it doesn't contribute much to the moment of inertia.",
+    "image_description": "",
+    "question_id": 8
+  },
+  {
+    "question": "The moment of inertia of a long rod spun around an axis through one end perpendicular to its length is mL²/3. Why is this moment of inertia greater than it would be if you spun a point mass m at the location of the center of mass of the rod (at L/2) (that would be mL² / 4)?",
+    "solution": "Because the moment of inertia varies as the square of the distance to the axis of rotation. The mass of the rod located at distances greater than L/2 would provide the larger contribution to make its moment of inertia greater than the point mass at L/2.",
+    "image_description": "",
+    "question_id": 9
+  },
+  {
+    "question": "What three factors affect the torque created by a force relative to a specific pivot point?",
+    "solution": "magnitude of the force, length of the lever arm, and angle of the lever arm and force vector",
+    "image_description": "",
+    "question_id": 10
+  },
+  {
+    "question": "When reducing the mass of a racing bike, the greatest benefit is realized from reducing the mass of the tires and wheel rims. Why does this allow a racer to achieve greater accelerations than would an identical reduction in the mass of the bicycle's frame?",
+    "solution": "The moment of inertia of the wheels is reduced, so a smaller torque is needed to accelerate them.",
+    "image_description": "",
+    "question_id": 11
+  },
+  {
+    "question": "Can a set of forces have a net torque that is zero and a net force that is not zero?",
+    "solution": "yes",
+    "image_description": "",
+    "question_id": 12
+  },
+  {
+    "question": "In the expression ř × F can |r x F| ever be less than the lever arm? Can it be equal to the lever arm?",
+    "solution": "|r x F| can be equal to the lever arm but never less than the lever arm",
+    "image_description": "",
+    "question_id": 13
+  },
+  {
+    "question": "A rod is pivoted about one end. Two forces F and - F are applied to it. Under what circumstances will the rod not rotate?",
+    "solution": "If the forces are along the axis of rotation, or if they have the same lever arm and are applied at a point on the rod.",
+    "image_description": "",
+    "question_id": 14
+  },
+  {
+    "question": "A track star runs a 400-m race on a 400-m circular track in 45 s. What is his angular velocity assuming a constant speed?",
+    "solution": "ω = 2π rad / 45.0 s = 0.14 rad/s",
+    "image_description": "",
+    "question_id": 15
+  },
+  {
+    "question": "A particle moves 3.0 m along a circle of radius 1.5 m. (a) Through what angle does it rotate? (b) If the particle makes this trip in 1.0 s at a constant speed, what is its angular velocity? (c) What is its acceleration?",
+    "solution": "a. θ = s/r = 3.0 m / 1.5 m = 2.0 rad; b. ω = 2.0 rad / 1.0 s = 2.0 rad/s; c. Since the angular acceleration is a constant, the only acceleration the particle experiences is its centripetal acceleration: v²/r = (3.0m/s)² / 1.5 m = 6.0 m/s²",
+    "image_description": "",
+    "question_id": 16
+  },
+  {
+    "question": "Unreasonable results. The propeller of an aircraft is spinning at 10 rev/s when the pilot shuts off the engine. The propeller reduces its angular velocity at a constant 2.0 rad/s² for a time period of 40 s. What is the rotation rate of the propeller in 40 s? Is this a reasonable situation?",
+    "solution": "Δt = Δω / α = (0 rad/s−10.0(2π)rad/s) / -2.0 rad/s² = 31.4s. The propeller takes only 31.4s to come to rest, when the propeller is at 0 rad/s, it would start rotating in the opposite direction. This would be impossible due to the magnitude of forces involved in getting the propeller to stop and start rotating in the opposite direction.",
+    "image_description": "",
+    "question_id": 17
+  },
+  {
+    "question": "On takeoff, the propellers on a UAV (unmanned aerial vehicle) increase their angular velocity for 3.0 s from rest at a rate of ω = (25.0t) rad/s where t is measured in seconds. (a) What is the instantaneous angular velocity of the propellers at t = 2.0s ? (b) What is the angular acceleration?",
+    "solution": "a. ω = 25.0(2.0s) = 50.0 rad/s ; b. α = dω/dt = 25.0 rad/s²",
+    "image_description": "",
+    "question_id": 18
+  },
+  {
+    "question": "A wheel has a constant angular acceleration of 5.0 rad/s². Starting from rest, it turns through 300 rad. (a) What is its final angular velocity? (b) How much time elapses while it turns through the 300 radians?",
+    "solution": "a. ω² = 2α(Δθ) = 2(5.0 rad/s²)(300.0 rad) ⇒ ω = 55 rad/s; b. t = ω / α = 54.8 rad/s / 5.0 rad/s² = 11 s",
+    "image_description": "",
+    "question_id": 19
+  },
+  {
+    "question": "The angular velocity of a rotating rigid body increases from 500 to 1500 rev/min in 120 s. (a) What is the angular acceleration of the body? (b) Through what angle does it turn in this 120 s?",
+    "solution": "a. (1500.0(2π/60.0) – 500.0(2π/60.0) rad/s) / 120.0s = 0.87 rad/s²; b. θ = ω₀t + 1/2 αt² = 500(2π / 60)rad / s(120 s) + 1/2 (0.87rad / s²)(120s)² = 12,600 rad",
+    "image_description": "",
+    "question_id": 20
+  },
+  {
+    "question": "A wheel 1.0 m in radius rotates with an angular acceleration of 4.0 rad/s². (a) If the wheel's initial angular velocity is 2.0 rad/s, what is its angular velocity after 10 s? (b) Through what angle does it rotate in the 10-s interval? (c) What are the tangential speed and acceleration of a point on the rim of the wheel at the end of the 10-s interval?",
+    "solution": "a. ω = 2.0rad/s + 4.0 rad/s²(10.0s) = 42.0 rad/s; b. θ = 2.0 rad/s (10 s)+ 1/2 (4.0 rad/s²)(10 s)² = 200 rad; c. vₜ = rω = 1.0 m(42.0 rad/s) = 42 m/s; aₜ = rα = 1.0 m(4.0rad/s²) = 4.0m/s²",
+    "image_description": "",
+    "question_id": 21
+  },
+  {
+    "question": "A circular disk of radius 10 cm has a constant angular acceleration of 1.0 rad/s²; at t = 0 its angular velocity is 2.0 rad/s. (a) Determine the disk's angular velocity at t = 5.0s. (b) What is the angle it has rotated through during this time? (c) What is the tangential acceleration of a point on the disk at t = 5.0 s?",
+    "solution": "a. ω = ω₀ + αt = 2.0+1.0(5.0s) = 7.0 rad/s.; b. θ = ω₀t + 1/2 αt² = 2.0(5.0)+ 1/2 (1.0)(5.0 s)² = 22.5 rad; c. aₜ = rα = 0.1m(1.0rad/s²) = 0.10 m/s²",
+    "image_description": "",
+    "question_id": 22
+  },
+  {
+    "question": "A rod of length 20 cm has two bead attached its ends. The rod with beads starts rotating from rest. If the bead are to have a tangential speed of 20 m/s in 7 s, what is the angular acceleration of the rod to achieve this?",
+    "solution": "The angular velocity to achieve the tangential speed is 20m/s / 0.1 m = 200 rad/s; α = 200.0 rad/s / 7.0s = 28.6 rad/s²",
+    "image_description": "",
+    "question_id": 23
+  },
+  {
+    "question": "A man stands on a merry-go-round that is rotating at 2.5 rad/s. If the coefficient of static friction between the man's shoes and the merry-go-round is μs = 0.5, how far from the axis of rotation can he stand without sliding?",
+    "solution": "The merry-go-round is rotating at a constant angular velocity, so the angular acceleration is zero, leaving only the centripetal acceleration. For the man not to slide off, the force of friction must equal the centripetal acceleration times his mass.\nm(v²/r) = μsN = μsmg ⇒ r = v²/μsg, v = rω ⇒ r= (rω)²/μsg or r = μsg / ω² = 0.5(9.8) / (2.5 rad/s)² = 0.78 m",
+    "image_description": "",
+    "question_id": 24
+  },
+  {
+    "question": "A wind turbine is rotating counterclockwise at 0.5 rev/s and slows to a stop in 10 s. Its blades are 20 m in length. (a) What is the angular acceleration of the turbine? (b) What is the centripetal acceleration of the tip of the blades at t = 0 s? (c) What is the magnitude and direction of the total linear acceleration of the tip of the blade that lies along the positive x-axis at t = 0 s?",
+    "solution": "a. α = (ω − ω₀)/t = (0 − 0.5(2π))/10.0s = −0.314rad/s²; vₜ = 0.5(2π) rad/s (20 m) = 62.8m/s, aₜ = rα = (20 m)(−0.314 rad/s²) = -6.28 m/s²; b. ac = (62.8)² / 20 m = 197.4m/s²; c. a = √ac² + aₜ² = √197.4² +(-6.28)² =197.5m/s²; θ = tan⁻¹(-6.28 / 197.4) = -1.8° in the counterclockwise direction from the centripetal acceleration vector",
+    "image_description": "",
+    "question_id": 25
+  },
+  {
+    "question": "A child with mass 40 kg sits on the edge of a merry-go-round at a distance of 3.0 m from its axis of rotation. The merry-go-round accelerates from rest up to 0.4 rev/s in 10 s. If the coefficient of static friction between the child and the surface of the merry-go-round is 0.6, does the child fall off before 5 s?",
+    "solution": "α = 0.4rev(2π) / 10.0s = 0.25 rad/s. At t = 5 s the angular velocity is\nω = αt = 0.25 rad/s²(5.0s) = 1.25 rad/s\naₜ = rα = (3.0 m)(0.25 rad/s²) = 0.75m/s², ac = 3.0 m(1.25 rad/s)² = 4.7 m/s²\na = √ac² + aₜ² = √(4.7)² + (0.75)² = 4.75m/s² ⇒ ma = 40.0 kg(4.75 m/s²) = 190 N\nThe maximum friction force is μsN = 0.6(40.0kg)(9.8m/s²) = 235.2 N so the child does not fall of yet.",
+    "image_description": "",
+    "question_id": 26
+  },
+  {
+    "question": "The angular velocity of a flywheel with radius 1.0 m varies according to ω(t) = 2.0t. Plot ac(t) and at(t) from t = 0 to 3.0 s for r=1.0 m. Analyze these results to explain when ac > at and when ac < at for a point on the flywheel at a radius of 1.0 m.",
+    "solution": "vₜ = rω = 1.0(2.0t) m/s; ac = vₜ²/r = (2.0t)² / 1.0 m = 4.0t² m/s²; aₜ(t) = rα(t) = r(dω/dt) = 1.0 m(2.0) = 2.0 m/s². Plotting both accelerations gives... The tangential acceleration is constant, while the centripetal acceleration is time dependent, and increases with time to values much greater than the tangential acceleration after t = 1s. For times less than 0.7 s and approaching zero the centripetal acceleration is much less than the tangential acceleration.",
+    "image_description": "A line graph titled 'Linear acceleration (m/s²) vs. Time (s)'. The x-axis represents Time in seconds from 0 to 3. The y-axis represents Linear acceleration in m/s² from 0 to 25. There are two plotted lines. The first is a straight horizontal line at 5 m/s², labeled 'Tangential'. The second is a curve that starts at the origin and increases upwards, labeled 'Centripetal'. It intersects the tangential line at approximately t=0.7s.",
+    "question_id": 27
+  },
+  {
+    "question": "(a) Calculate the rotational kinetic energy of Earth on its axis. (b) What is the rotational kinetic energy of Earth in its orbit around the Sun?",
+    "solution": "a. I = 2/5mr² = 2/5(5.98x10²⁴kg)(6.37×10⁶m)² = 9.7×10³⁷ kg-m²,\nK = 1/2Iω² = 1/2(9.7×10³⁷kg-m²)(2π / 86,400.0 s)² = 2.56 × 10²⁹ J;\nb. I = mr² = (5.98×10²⁴kg)(1.5×10¹¹m)² = 1.35×10⁴⁷ kg-m²\nK = 1/2Iω² = 1/2(1.35×10⁴⁷kg-m²)(2π / 3.15×10⁷s)² = 2.68×10³³ J",
+    "image_description": "",
+    "question_id": 28
+  },
+  {
+    "question": "A baseball pitcher throws the ball in a motion where there is rotation of the forearm about the elbow joint as well as other movements. If the linear velocity of the ball relative to the elbow joint is 20.0 m/s at a distance of 0.480 m from the joint and the moment of inertia of the forearm is 0.500 kg-m², what is the rotational kinetic energy of the forearm?",
+    "solution": "ω = v/r = 20.0m/s / 0.48m = 41.7 rad/s\nK = 1/2Iω² = 1/2(0.500 kg-m²)(41.7 rad/s)² = 434.0 J",
+    "image_description": "",
+    "question_id": 29
+  },
+  {
+    "question": "An aircraft is coming in for a landing at 300 meters height when the propeller falls off. The aircraft is flying at 40.0 m/s horizontally. The propeller has a rotation rate of 20 rev/s, a moment of inertia of 70.0 kg-m², and a mass of 200 kg. Neglect air resistance, so the rotation rate does not change as the propeller falls. (a) With what translational velocity does the propeller hit the ground? (b) What is the rotation rate of the propeller at impact?",
+    "solution": "a. The initial energy in the system is E_initial = K_R + K_T + U_grav = 1/2Iω² + 1/2mv₀² + mgh.\nThe gravitational potential energy is converted into translational energy:\nE_final = 1/2Iω² + 1/2mv² = E_initial = 1/2Iω₀² + 1/2mv₀² + mgh.\nSince ωᵢ = ωf, the rotational terms cancel,\n1/2mv₀² = 1/2(200 kg)(40.0m/s)² = 1.6×10⁵ J,\nU_grav = mgh = (200.0 kg)(9.8)(300.0 m) = 5.88×10⁵ J,\nand we have E_final = E_initial\n1/2mv² = 1.6×10⁵ J+5.88×10⁵J = 7.48×10⁵ J,\nvf = 86.5m/s;\nb. The rotational rate of the propeller stays the same at 20 rev/s.",
+    "image_description": "",
+    "question_id": 30
+  },
+  {
+    "question": "A neutron star of mass 2 × 10³⁰ kg and radius 10 km rotates with a period of 0.02 seconds. What is its rotational kinetic energy?",
+    "solution": "I = 2/5(2×10³⁰kg)(10.0×10³m)² = 8.0×10³⁷kg·m²,\nω = 2π / T = 2π / 0.02s = 314.2 rad/s,\nK = 1/2Iω² = 1/2(8.0×10³⁷kg·m²)(314.2rad/s)² = 3.95×10⁴² J",
+    "image_description": "",
+    "question_id": 31
+  },
+  {
+    "question": "A system consists of a disk of mass 2.0 kg and radius 50 cm upon which is mounted an annular cylinder of mass 1.0 kg with inner radius 20 cm and outer radius 30 cm (see below). The system rotates about an axis through the center of the disk and annular cylinder at 10 rev/s. (a) What is the moment of inertia of the system? (b) What is its rotational kinetic energy?",
+    "solution": "a. I = I_disk + I_cylinder = 1/2m_disk r_disk² + 1/2m_cyl(r₁² + r₂²) = 1/2(2.0 kg)(0.5m)² + 1/2(1.0 kg) [(0.2 m)² + (0.3 m)²] = (0.25 + 0.065)kg·m² = 0.315 kg·m²;\nb. K = 1/2Iω² = 1/2(0.315 kg·m²)(10.0(2π) rad/s)² = 621.8 J",
+    "image_description": "A diagram shows a circular system with a central axis. The outer circle represents a disk with a 50 cm radius. Inside this disk is a shaded annular cylinder with an inner radius of 20 cm and an outer radius of 30 cm.",
+    "question_id": 32
+  },
+  {
+    "question": "Using the parallel axis theorem, what is the moment of inertia of the rod of mass m about the axis shown below?",
+    "solution": "by the parallel-axis theorem\nI = I_center of mass + md² = 1/12mL² + m(L/3)² = (1/12 + 1/9)mL² = 7/36mL²",
+    "image_description": "A horizontal rod is depicted with an axis of rotation passing through it. The segment of the rod to the left of the axis is labeled L/6, and the segment to the right is labeled 5L/6.",
+    "question_id": 33
+  },
+  {
+    "question": "A uniform rod of mass 1.0 kg and length 2.0 m is free to rotate about one end (see the following figure). If the rod is released from rest at an angle of 60° with respect to the horizontal, what is the speed of the tip of the rod as it passes the horizontal position?",
+    "solution": "The center of mass of the rod is located h = (L/2)sinθ above the horizontal. By conservation of energy,\nΔU = ΔK ⇒ mgh = 1/2Iω² ⇒ ω = √(2mgh / I)\nω = √(2mgh / (1/3mL²)) = √(6gh / L²) = √(6g(L/2)sin 60 / L²) = √(3(9.8 m/s²)sin 60 / 2.0m) = 3.57 rad/s, and\nv = rω = 2.0m(3.57 rad/s) = 7.14m/s",
+    "image_description": "A diagram shows a rod pivoted at its left end. The rod is positioned at a 60-degree angle above a horizontal line.",
+    "question_id": 34
+  },
+  {
+    "question": "A solid sphere of radius 10 cm is allowed to rotate freely about an axis. The sphere is given a sharp blow so that its center of mass starts from the position shown in the following figure with speed 15 cm/s. What is the maximum angle that the diameter makes with the vertical?",
+    "solution": "I = 2/5m(0.1m)² + m(0.1m)² = 7/5m(0.01m²),\nΔK = 1/2Iω² = ΔU = mgh ⇒ 1/2(7/5m(0.01 m²)) (0.15m/s / 0.1 m)² = mg(0.1m(1−cosθ))\n7/10(0.0225) = 0.1g(1−cosθ) ⇒ (1−cosθ) = 0.016 ⇒ θ = 10.2°",
+    "image_description": "Two diagrams are shown. The left diagram shows a sphere pivoted at its edge, labeled 'Axis'. A force is applied, giving it an initial velocity 'v = 15 cm/s'. The right diagram shows the sphere after it has swung upwards, making an angle 'θ' with the vertical, with the question 'θ = ?'.",
+    "question_id": 35
+  },
+  {
+    "question": "Two flywheels of negligible mass and different radii are bonded together and rotate about a common axis (see below). The smaller flywheel of radius 30 cm has a cord that has a pulling force of 50 N on it. What pulling force needs to be applied to the cord connecting the larger flywheel of radius 50 cm such that the combination does not rotate?",
+    "solution": "The torques must balance. τ₁ = τ₂ ⇒ 50 N(0.3 m) = F(0.5 m) ⇒ F = 30 N",
+    "image_description": "A diagram shows two concentric flywheels. A cord is wrapped around the inner wheel and is pulled to the right with a force of 50 N. A second cord is wrapped around the outer wheel and is pulled to the left with an unknown force labeled 'F = ?'.",
+    "question_id": 36
+  },
+  {
+    "question": "(a) When opening a door, you push on it perpendicularly with a force of 55.0 N at a distance of 0.850 m from the hinges. What torque are you exerting relative to the hinges? (b) Does it matter if you push at the same height as the hinges? There is only one pair of hinges.",
+    "solution": "a. 0.85 m(55.0 N) = 46.75 N·m; b. It does not matter at what height you push. The torque depends on only the magnitude of the force applied and the perpendicular distance of the force's application from the hinges.",
+    "image_description": "",
+    "question_id": 37
+  },
+  {
+    "question": "What hanging mass must be placed on the cord to keep the pulley from rotating (see the following figure)? The mass on the frictionless plane is 5.0 kg. The mass on the plane is connected to a cord that wraps around the pulley's inner radius of 20 cm. The hanging mass is connected to a cord that wraps around the pulley's outer radius of 30 cm.",
+    "solution": "the mass on the plane provides a torque of\nτ₁ = m₁g sin θ(0.2 m) = 5.0 kg(9.8)(1 / 2)(0.2m) = 4.9 N·m;\n4.9 N·m = m₂g(0.3 m) ⇒ m₂ = 4.9 N·m / (9.8(0.3 m)) = 1.67 kg",
+    "image_description": "A 5.0 kg mass is on an inclined plane at a 30° angle. A cord attached to it goes over a double pulley at the top of the incline. This cord is wrapped around the inner wheel (radius 20 cm). A second cord hangs from the outer wheel (radius 30 cm) and is attached to a mass labeled 'M = ?'.",
+    "question_id": 38
+  },
+  {
+    "question": "Calculate the torque about the z-axis that is out of the page at the origin in the following figure, given that F₁ = 3 N, F₂ = 2 N, F₃ = 3 N, F₄ = 1.8 N",
+    "solution": "τ₁ = −3 m(3 N) = −9.0 N·m\nτ₂ = (2 m)(2 N)sin120° = 3.46 N·m\nτ₃ = 0\nτ₄ = -(2m)(1.8 N) sin70° = -3.38 N·m\nτ_net = -9.0 N·m + 3.46 N · m + 0-3.38 N·m = -8.92 N·m",
+    "image_description": "An x-y coordinate system shows four forces. F₁ is applied at x=3m, pointing down. F₂ is applied at x=-2m, pointing up and left at 30° from the vertical. F₃ originates from the origin pointing down and left. F₄ is applied at a point on the negative y-axis from x=2m, pointing down and right at 20° from the vertical.",
+    "question_id": 39
+  },
+  {
+    "question": "A pendulum consists of a rod of mass 1 kg and length 1 m connected to a pivot with a solid sphere attached at the other end with mass 0.5 kg and radius 30 cm. What is the torque about the pivot when the pendulum makes an angle of 30° with respect to the vertical?",
+    "solution": "the center of mass of the system is located at\nx_cm = (m₁x₁ + m₂x₂) / (m₁ + m₂) = (1.0 kg(0.5 m)+0.5 kg(1.3 m)) / ((1.0+0.5) kg) = 0.77 m from the axis of rotation;\nF⊥ = mg sinθ ⇒ τ = F⊥ L = mg sinθ(0.77 m) = (1.5 kg)(9.8 m/s²)sin30°(0.77 m) = 5.66 N·m",
+    "image_description": "",
+    "question_id": 40
+  },
+  {
+    "question": "A horizontal beam of length 3 m and mass 2.0 kg has a mass of 1.0 kg and width 0.2 m sitting at the end of the beam (see the following figure). What is the torque of the system about the support at the wall?",
+    "solution": "Στ = Σ Fᵢrᵢ =(2.0kg)(9.8m/s²)(1.5m) + (1.0kg)(9.8m/s²)(2.9 m) = 57.82 N·m",
+    "image_description": "A horizontal beam, 3m long and 2.0kg, is attached to a wall support on the left. A separate mass of 1.0kg, with a width of 0.2m, rests on the far right end of the beam.",
+    "question_id": 41
+  },
+  {
+    "question": "What is the torque about the origin of the force (5.0 î−2.0 ĵ+1.0 k) N if it is applied at the point whose position is: r = (−2.0 î+4.0 ĵ) m?",
+    "solution": "r × F = (−2.0 î +4.0 ĵ) m ×(5.0 î−2.0 ĵ+1.0 k) N\n= 4.0 k + 2.0 ĵ−20.0 k + 4.0 î N·m\nr × F=4.0 î+2.0 ĵ−16.0 k N·m",
+    "image_description": "",
+    "question_id": 42
+  },
+  {
+    "question": "Suppose you exert a force of 180 N tangential to a 0.280-m-radius, 75.0-kg grindstone (a solid disk). (a)What torque is exerted? (b) What is the angular acceleration assuming negligible opposing friction? (c) What is the angular acceleration if there is an opposing frictional force of 20.0 N exerted 1.50 cm from the axis?",
+    "solution": "a. τ = (0.280 m)(180.0 N) = 50.4 N·m ;\nI = 1/2 (75.0 kg)(0.280 m)² = 2.94 kg-m²\nb. α = τ / I = 50.4 N-m / 2.94 kg-m² = 17.14 rad/s²;\nc. τf = -20.0 N(0.015 m) = -0.30N-m\nτ_net = 50.1 N-m\nα = 50.1 N-m / 2.94 kg-m² = 17.04 rad/s²",
+    "image_description": "",
+    "question_id": 43
+  },
+  {
+    "question": "A constant torque is applied to a rigid body whose moment of inertia is 4.0 kg-m² around the axis of rotation. If the wheel starts from rest and attains an angular velocity of 20.0 rad/s in 10.0 s, what is the applied torque?",
+    "solution": "α = 20.0 / 10.0 = 2.0rad/s² ⇒ τ = Iα = 4.0 kg·m² (2.0 rad/s²) = 8.0 N·m",
+    "image_description": "",
+    "question_id": 44
+  },
+  {
+    "question": "A flywheel (I = 100.0 kg-m²) rotating at 500.0 rev/min is brought to rest by friction in 2.0 min. What is the frictional torque on the flywheel?",
+    "solution": "500.0 rev/min = 52.36 rad/s, α = -52.36 rad/s / 120.0 s = -0.436 rad/s²\nτ = Ια = 100.0 kg-m² (-0.436 rad/s²) = -43.6 N·m",
+    "image_description": "",
+    "question_id": 45
+  },
+  {
+    "question": "Suppose when Earth was created, it was not rotating. However, after the application of a uniform torque for 6 days according to the current length of a day, it was rotating at 1 rev/day. (a) What was the angular acceleration during the 6 days? (b) What torque was applied to Earth during this period? (c) What force tangent to Earth at its equator would produce this torque?",
+    "solution": "a. ω = 2π / 86,400 s = 7.27×10⁻⁵ rad/s, α = 7.27×10⁻⁵ rad/s / 6(86,400.0s) = 1.4×10⁻¹⁰ rad/s²;\nb. I = 2/5(5.98×10²⁴kg)(6.37×10⁶m)² = 9.7×10³⁷ kg-m²\nτ=9.7×10³⁷kg-m²(1.4×10⁻¹⁰ rad/s²) = 1.36×10²⁸ N-m; c. F = 1.36×10²⁸ N-m / 6.37×10⁶m = 2.1×10²¹ N",
+    "image_description": "",
+    "question_id": 46
+  },
+  {
+    "question": "A block of mass 3 kg slides down an inclined plane at an angle of 45° with a massless tether attached to a pulley with mass 1 kg and radius 0.5 m at the top of the incline (see the following figure). The pulley can be approximated as a disk. The coefficient of kinetic friction on the plane is 0.4. What is the acceleration of the block?",
+    "solution": "mg sin θ −T − mgμ cosθ = ma from forces on the block, Newton's second law\ntorque on the pulley = TR = Ια ⇒T = Ια/R² since a = Rα\nmg(sin θ – μ cosθ) - Ia/R² = ma ⇒ a = mg(sin θ – μcosθ) / (m + I/R²)\nI = 1/2MR² ⇒ a = mg(sinθ – μcosθ) / (m+1/2 M) = 3kg(9.8 m/s²)(sin 45 -0.4 cos 45) / (3kg + 0.5kg) = 3.6 m/s²",
+    "image_description": "A diagram shows a block on an inclined plane set at a 45-degree angle. A string connects the block to a pulley located at the top of the incline.",
+    "question_id": 47
+  },
+  {
+    "question": "A uniform rod of mass and length is held vertically by two strings of negligible mass, as shown below. (a) Immediately after the string is cut, what is the linear acceleration of the free end of the stick? (b) Of the middle of the stick?",
+    "solution": "Torque is mg (distance to center of mass) from pivot at left string; a.\nτ = mg(L/2) = Iα ⇒ α = mg(L/2I) = mgL / (2(1/3mL²)) = 3g/2L ⇒ a = Lα = 3/2g\na = rα = 14.7 m/s²; b. a = (L/2)α = (L/2)(3g/2L) = 3/4g",
+    "image_description": "A vertical rod is shown suspended by two horizontal strings, one at the top and one at the bottom. A pair of scissors is positioned to cut the top string.",
+    "question_id": 48
+  },
+  {
+    "question": "A wind turbine rotates at 20 rev/min. If its power output is 2.0 MW, what is the torque produced on the turbine from the wind?",
+    "solution": "ω = 20.0 rev/min (2π) / 60.0 sec/min = 2.1 rad/s ⇒ τ = P/ω = 2.0×10⁶W / 2.1 rad/s = 9.5×10⁵N·m",
+    "image_description": "",
+    "question_id": 49
+  },
+  {
+    "question": "A uniform cylindrical grindstone has a mass of 10 kg and a radius of 12 cm. (a) What is the rotational kinetic energy of the grindstone when it is rotating at 1.5×10³ rev/min? (b) After the grindstone's motor is turned off, a knife blade is pressed against the outer edge of the grindstone with a perpendicular force of 5.0 N. The coefficient of kinetic friction between the grindstone and the blade is 0.80. Use the work energy theorem to determine how many turns the grindstone makes before it stops.",
+    "solution": "τ = −0.8(5.0 N)(0.12 m) = -0.48 N-m, 1.5×10³ rev/min =157.1rad/s;\na. K = 1/2Iω² = 1/2(1/2(10.0 kg)(0.12 m)²) (157.1 rad/s)² = 888.50 J\nb. W = τ ΔΘ = − 1/2Iω² − 1/2Iω₀² ⇒ -(0.48 N·m)Δθ = 0−888.50 J\nΔΘ =1851.0 rad = 294.6 rev",
+    "image_description": "",
+    "question_id": 50
+  },
+  {
+    "question": "A propeller is accelerated from rest to an angular velocity of 1000 rev/min over a period of 6.0 seconds by a constant torque of 2.0×10³N·m. (a) What is the moment of inertia of the propeller? (b) What power is being provided to the propeller 3.0 s after it starts rotating?",
+    "solution": "a. α = (ω−ω₀)/(t−t₀) = 1000.0(2π)/6(60.0 s) = 17.45 rad/s², I = τ/α = 2.0×10³N.m / 17.45 rad/s² = 114.6 kg·m²;\nb. ω = αt = 17.45 rad/s² (3.0 s) = 52.35 rad/s,\nP = τω = 2000.0 N·m(52.35 rad/s) = 104,700 W",
+    "image_description": "",
+    "question_id": 51
+  },
+  {
+    "question": "A uniform rod of length L and mass M is held vertically with one end resting on the floor as shown below. When the rod is released, it rotates around its lower end until it hits the floor. Assuming the lower end of the rod does not slip, what is the linear velocity of the upper end when it hits the floor?",
+    "solution": "θ is measured from the vertical. The torque is taken from the center of mass,\nτ = −mg(L/2)sinθ W⁹⁰ = ∫−mg(L/2)sinθdθ = mg(L/2) = 1/2Iω²−0\nI = 1/3mL² mg(L/2) = 1/2(1/3mL²)ω² ⇒ ω = √(3g/L) ⇒ v = Lω = √3Lg",
+    "image_description": "A vertical rod of length L is shown standing on a horizontal surface. An arc with an arrow indicates that the rod falls, pivoting at its base. The question asks for the velocity 'v' of the top end as it hits the floor.",
+    "question_id": 52
+  },
+  {
+    "question": "A 2-kg block on a frictionless inclined plane at 40° has a cord attached to a pulley of mass 1 kg and radius 20 cm (see the following figure). The block slides a distance of 0.50 m. (a) What is the acceleration of the block down the plane? (b) What is the work done by the cord on the pulley?",
+    "solution": "a. mg sin θ − T = ma\nτ = TR = Ια ⇒ α = TR/I ⇒ T = aI/R²,\nmg sin θ −T = ma ⇒ mg sin θ − aI/R² = ma\na = mg sinθ / (m+ I/R²)\nI_pulley = 1/2MR² that of a disk,\na = (2.0kg)(9.8)sin40 / (2.0kg+1/2(1.0kg)) = 5.0 m/s²\nb. The net torque on the pulley: T = aI/R² = (5.0m/s²)(1.0kg)/2 = 2.5N\nτ = TR = 2.5N(0.2m) = 0.5N·m,\nθ = s/R = 0.5m/0.2m = 2.5 radians W = τθ = (0.5N·m)(2.5rad) = 1.25N·m",
+    "image_description": "A diagram shows a 2 kg block on an inclined plane at 40 degrees. A cord runs from the block up to a pulley at the top of the incline. The pulley has a mass of 1 kg and a radius of 20 cm.",
+    "question_id": 53
+  },
+  {
+    "question": "A cyclist is riding such that the wheels of the bicycle have a rotation rate of 3.0 rev/s. If the cyclist brakes such that the rotation rate of the wheels decrease at a rate of 0.3rev/s², how long does it take for the cyclist to come to a complete stop?",
+    "solution": "Δt = Δω / α = (3.0−0 rev/s) / 0.3 rev/s² = 10.0 s",
+    "image_description": "",
+    "question_id": 54
+  },
+  {
+    "question": "A phonograph turntable rotating at 33 1/3 rev/min slows down and stops in 1.0 min. (a) What is the turntable's angular acceleration, in radians/s², assuming it is constant? (b) How many revolutions does the turntable make while stopping?",
+    "solution": "a. 33(1/3) rev/min =3.5 rad/s\n(3.49 rad/s) / 60.0s = 0.06 rad/s²;\nb. θ = ω_avg t = 1.75 rad/s(60.0 s) = 105.0 rad;16.7 revolutions; 105.0 rad/2π = 16.7 revolutions.",
+    "image_description": "",
+    "question_id": 55
+  },
+  {
+    "question": "Suppose a piece of dust has fallen on a CD. If the spin rate of the CD is 500 rpm, and the piece of dust is 4.3 cm from the center, what is the total distance traveled by the dust in 3 minutes? (Ignore accelerations due to getting the CD rotating.)",
+    "solution": "500.0 rpm = 52.36rad/s,\nθ = ωt = 52.36 rad/s (180.0 s) = 9424.78 rad\ns = rθ = 0.043 m (9424.78 rad) = 405.26 m",
+    "image_description": "",
+    "question_id": 56
+  },
+  {
+    "question": "Calculate the moment of inertia of a skater given the following information. (a) The 60.0-kg skater is approximated as a cylinder that has a 0.110-m radius. (b) The skater with arms extended is approximated by a cylinder that is 52.5 kg, has a 0.110-m radius, and has two 0.900-m-long arms which are 3.75 kg each and extend straight out from the cylinder like rods rotated about their ends.",
+    "solution": "a. I = 1/2(60.0 kg)(0.110m)² = 0.363 kg·m²;\nb. I = 1/2(52.5 kg)(0.110m)² + 2 * 1/3(3.75 kg)(0.900m)² = 2.34 kg·m²",
+    "image_description": "",
+    "question_id": 57
+  },
+  {
+    "question": "A pendulum consists of a rod of length 2 m and mass 3 kg with a solid sphere of mass 1 kg and radius 0.3 m attached at one end. The axis of rotation is as shown below. What is the angular velocity of the pendulum at its lowest point if it is released from rest at an angle of 30°?",
+    "solution": "the center of mass of the system is located at\nx_cm = (m₁x₁ + m₂x₂) / (m₁ + m₂) = (1kg(0.3m)+3.0kg(1.6m)) / ((3.0+1.0)kg) =1.275m from the axis of rotation.\nI_pend = 2/5(1.0kg)(0.3m)² +1.0kg(0.3m)² + 1/12(3.0kg)(2.0m)² +3.0kg(1.6m)² = 8.8kg·m²\nΔh_rod = h_rod (1−cos 30°) = 1.6m(0.134) = 0.214m\nΔh_sphere = h_sphere (1−cos30°) = 0.3m(0.134) = 0.04m\nΔU = mgΔh = (3kg)(9.8m/s²)(0.214m)+(1kg)(9.8m/s²)(0.04m) = 6.68 J\nΔK = 1/2Iω² = 1/2(8.8kgm²)ω² ⇒ ω = √(6.68 J / 4.4kgm²) = 1.23 rad/s",
+    "image_description": "A diagram shows a pendulum pivoted at the top. The pendulum consists of a 2 m long rod with a sphere attached at the bottom. The top is labeled 'Axis'.",
+    "question_id": 58
+  },
+  {
+    "question": "Two children push on opposite sides of a door during play. Both push horizontally and perpendicular to the door. One child pushes with a force of 17.5 N at a distance of 0.600 m from the hinges, and the second child pushes at a distance of 0.450 m. What force must the second child exert to keep the door from moving? Assume friction is negligible.",
+    "solution": "(0.600 m)(17.5 N) = (0.45 m )F, F = 23.3 N",
+    "image_description": "",
+    "question_id": 59
+  },
+  {
+    "question": "An automobile engine can produce 200 N×m of torque. Calculate the angular acceleration produced if 95.0% of this torque is applied to the drive shaft, axle, and rear wheels of a car, given the following information. The car is suspended so that the wheels can turn freely. Each wheel acts like a 15.0-kg disk that has a 0.180-m radius. The walls of each tire act like a 2.00-kg annular ring that has inside radius of 0.180 m and outside radius of 0.320 m. The tread of each tire acts like a 10.0-kg hoop of radius 0.330 m. The 14.0-kg axle acts like a rod that has a 2.00-cm radius. The 30.0-kg drive shaft acts like a rod that has a 3.20-cm radius.",
+    "solution": "I_wheel = 2 * 1/2(15.0kg)(0.180m)² = 0.486kg-m²\nI_wall = 2 * 1/2(2.0kg)((0.180m)² + (0.320m)²) = 0.27kg-m²\nI_tread = 2(10.0kg)(0.330m)² = 2.175kg-m²\nI_axle = 1/2(14.0kg)(0.02m)² = 0.0028kg-m²\nI_shaft = 1/2(30.0kg)(0.032m)² = 0.0154kg-m²\nI_total = 2.94kg-m²\nα = 190.0 N-m / 2.94 kg-m² = 64.4rad/s²",
+    "image_description": "",
+    "question_id": 60
+  },
+  {
+    "question": "The angular acceleration of a rotating rigid body is given by α = (2.0−3.0t) rad/s². If the body starts rotating from rest at t = 0, (a) what is the angular velocity? (b) Angular position? (c) What angle does it rotate through in 10 s? (d) Where does the vector perpendicular to the axis of rotation indicating 0° at t = 0 lie at t=10s ?",
+    "solution": "a. ω = ∫α(t)dt (rad/s) = ∫(2.0−3.0t)dt = 2.0t −1.5t²;\nb. θ = ∫ω(t)dt (rad) = ∫(2.0t −1.5t²)dt = t² −0.5t³;\nc. θ = 100.0 − 0.5(1000.0 s) = −400.0 rad ;\nd. −400.0 / 2π = -63.66 revolutions ⇒ the vector is at −0.66(360°)=−237.6°",
+    "image_description": "",
+    "question_id": 61
+  },
+  {
+    "question": "A disk of mass m, radius R, and area A has a surface mass density σ = mr/AR (see the following figure). What is the moment of inertia of the disk about an axis through the center?",
+    "solution": "I = ∫₀ᴿ r²σ(2πr)dr = 2π ∫₀ᴿ r³(mr/AR)dr = 2πm/AR ∫₀ᴿ r⁴dr = 2πm/AR [r⁵/5]₀ᴿ = 2πmR⁵ / 5AR = 2/5mR²",
+    "image_description": "A diagram of a flat disk is shown. A vertical line passes through its center, labeled 'Axis of rotation'. A radius is indicated by the letter 'r'.",
+    "question_id": 62
+  },
+  {
+    "question": "A cord is wrapped around the rim of a solid cylinder of radius 0.25 m, and a constant force of 40 N is exerted on the cord shown, as shown in the following figure. The cylinder is mounted on frictionless bearings, and its moment of inertia is 6.0 kg·m². (a) Use the work energy theorem to calculate the angular velocity of the cylinder after 5.0 m of cord have been removed. (b) If the 40-N force is replaced by a 40-N weight, what is the angular velocity of the cylinder after 5.0 m of cord have unwound?",
+    "solution": "a. W_AB = τ(θ_B−θ_A) ΔΘ = 5.0m/0.25m = 20.0 radians\nW_AB = (0.25m)(40.0N)(20.0rad) = 200.0N·m = 1/2(6.0kg·m²)ω² – 0\nω = 8.2 rad/s;\nb. Use conservation of mechanical energy\nmgh = 1/2mv² + 1/2Iω² = 1/2m(rω)² + 1/2Iω²\n40.0N(5.0m) = 1/2(4.08kg)(0.25)²ω² + 1/2(3.0)ω²\n200.0 = 0.13ω² + 3.0ω² ⇒ ω = 8.0 rad/s",
+    "image_description": "A diagram shows a solid cylinder with a cord wrapped around its rim. The cord hangs vertically downwards, and a force of 40 N is applied to the end of the cord.",
+    "question_id": 63
+  }
+]

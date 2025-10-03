@@ -1,5 +1,6 @@
 # Compiled
 *.elc
+*.DS_Store
 
 # Packaging
 .cask/
@@ -15,3 +16,6 @@ dist/
 
 # Undo-tree save-files
 *.~undo-tree
+
+#
+.env

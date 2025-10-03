@@ -1,0 +1,79 @@
+[
+{
+    "question": "Calculate the torque about the z-axis that is out of the page at the origin in the following figure, given that F₁ = 3 N, F₂ = 2 N, F₃ = 3 N, F₄ = 1.8 N",
+    "solution": "τ₁ = −3 m(3 N) = −9.0 N·m\nτ₂ = (2 m)(2 N)sin120° = 3.46 N·m\nτ₃ = 0\nτ₄ = -(2m)(1.8 N) sin70° = -3.38 N·m\nτ_net = -9.0 N·m + 3.46 N · m + 0-3.38 N·m = -8.92 N·m",
+
+    "question_id": 39
+},
+{
+    "question": "A block of mass 3 kg slides down an inclined plane at an angle of 45° with a massless tether attached to a pulley with mass 1 kg and radius 0.5 m at the top of the incline (see the following figure). The pulley can be approximated as a disk. The coefficient of kinetic friction on the plane is 0.4. What is the acceleration of the block?",
+    "solution": "mg sin θ −T − mgμ cosθ = ma from forces on the block, Newton's second law\ntorque on the pulley = TR = Ια ⇒T = Ια/R² since a = Rα\nmg(sin θ – μ cosθ) - Ia/R² = ma ⇒ a = mg(sin θ – μcosθ) / (m + I/R²)\nI = 1/2MR² ⇒ a = mg(sinθ – μcosθ) / (m+1/2 M) = 3kg(9.8 m/s²)(sin 45 -0.4 cos 45) / (3kg + 0.5kg) = 3.6 m/s²",
+    "question_id": 47
+},
+{
+    "question": "A wind turbine rotates at 20 rev/min. If its power output is 2.0 MW, what is the torque produced on the turbine from the wind?",
+    "solution": "ω = 20.0 rev/min (2π) / 60.0 sec/min = 2.1 rad/s ⇒ τ = P/ω = 2.0×10⁶W / 2.1 rad/s = 9.5×10⁵N·m",
+    "question_id": 49
+},
+{
+    "question": "A uniform cylindrical grindstone has a mass of 10 kg and a radius of 12 cm. (a) What is the rotational kinetic energy of the grindstone when it is rotating at 1.5×10³ rev/min? (b) After the grindstone's motor is turned off, a knife blade is pressed against the outer edge of the grindstone with a perpendicular force of 5.0 N. The coefficient of kinetic friction between the grindstone and the blade is 0.80. Use the work energy theorem to determine how many turns the grindstone makes before it stops.",
+    "solution": "τ = −0.8(5.0 N)(0.12 m) = -0.48 N-m, 1.5×10³ rev/min =157.1rad/s;\na. K = 1/2Iω² = 1/2(1/2(10.0 kg)(0.12 m)²) (157.1 rad/s)² = 888.50 J\nb. W = τ ΔΘ = − 1/2Iω² − 1/2Iω₀² ⇒ -(0.48 N·m)Δθ = 0−888.50 J\nΔΘ =1851.0 rad = 294.6 rev",
+    "question_id": 50
+},
+{
+    "question": "A propeller is accelerated from rest to an angular velocity of 1000 rev/min over a period of 6.0 seconds by a constant torque of 2.0×10³N·m. (a) What is the moment of inertia of the propeller? (b) What power is being provided to the propeller 3.0 s after it starts rotating?",
+    "solution": "a. α = (ω−ω₀)/(t−t₀) = 1000.0(2π)/6(60.0 s) = 17.45 rad/s², I = τ/α = 2.0×10³N.m / 17.45 rad/s² = 114.6 kg·m²;\nb. ω = αt = 17.45 rad/s² (3.0 s) = 52.35 rad/s,\nP = τω = 2000.0 N·m(52.35 rad/s) = 104,700 W",
+    "question_id": 51
+},
+{
+    "question": "A 2-kg block on a frictionless inclined plane at 40° has a cord attached to a pulley of mass 1 kg and radius 20 cm (see the following figure). The block slides a distance of 0.50 m. (a) What is the acceleration of the block down the plane? (b) What is the work done by the cord on the pulley?",
+    "solution": "a. mg sin θ − T = ma\nτ = TR = Ια ⇒ α = TR/I ⇒ T = aI/R²,\nmg sin θ −T = ma ⇒ mg sin θ − aI/R² = ma\na = mg sinθ / (m+ I/R²)\nI_pulley = 1/2MR² that of a disk,\na = (2.0kg)(9.8)sin40 / (2.0kg+1/2(1.0kg)) = 5.0 m/s²\nb. The net torque on the pulley: T = aI/R² = (5.0m/s²)(1.0kg)/2 = 2.5N\nτ = TR = 2.5N(0.2m) = 0.5N·m,\nθ = s/R = 0.5m/0.2m = 2.5 radians W = τθ = (0.5N·m)(2.5rad) = 1.25N·m",
+    "question_id": 53
+},
+{
+    "question": "A cyclist is riding such that the wheels of the bicycle have a rotation rate of 3.0 rev/s. If the cyclist brakes such that the rotation rate of the wheels decrease at a rate of 0.3rev/s², how long does it take for the cyclist to come to a complete stop?",
+    "solution": "Δt = Δω / α = (3.0−0 rev/s) / 0.3 rev/s² = 10.0 s",
+    "question_id": 54
+},
+{
+    "question": "A phonograph turntable rotating at 33 1/3 rev/min slows down and stops in 1.0 min. (a) What is the turntable's angular acceleration, in radians/s², assuming it is constant? (b) How many revolutions does the turntable make while stopping?",
+    "solution": "a. 33(1/3) rev/min =3.5 rad/s\n(3.49 rad/s) / 60.0s = 0.06 rad/s²;\nb. θ = ω_avg t = 1.75 rad/s(60.0 s) = 105.0 rad;16.7 revolutions; 105.0 rad/2π = 16.7 revolutions.",
+    "question_id": 55
+  },
+  {
+    "question": "Suppose a piece of dust has fallen on a CD. If the spin rate of the CD is 500 rpm, and the piece of dust is 4.3 cm from the center, what is the total distance traveled by the dust in 3 minutes? (Ignore accelerations due to getting the CD rotating.)",
+    "solution": "500.0 rpm = 52.36rad/s,\nθ = ωt = 52.36 rad/s (180.0 s) = 9424.78 rad\ns = rθ = 0.043 m (9424.78 rad) = 405.26 m",
+    "question_id": 56
+  },
+  {
+    "question": "Calculate the moment of inertia of a skater given the following information. (a) The 60.0-kg skater is approximated as a cylinder that has a 0.110-m radius. (b) The skater with arms extended is approximated by a cylinder that is 52.5 kg, has a 0.110-m radius, and has two 0.900-m-long arms which are 3.75 kg each and extend straight out from the cylinder like rods rotated about their ends.",
+    "solution": "a. I = 1/2(60.0 kg)(0.110m)² = 0.363 kg·m²;\nb. I = 1/2(52.5 kg)(0.110m)² + 2 * 1/3(3.75 kg)(0.900m)² = 2.34 kg·m²",
+    "question_id": 57
+  },
+  {
+    "question": "A pendulum consists of a rod of length 2 m and mass 3 kg with a solid sphere of mass 1 kg and radius 0.3 m attached at one end. The axis of rotation is as shown below. What is the angular velocity of the pendulum at its lowest point if it is released from rest at an angle of 30°?",
+    "solution": "the center of mass of the system is located at\nx_cm = (m₁x₁ + m₂x₂) / (m₁ + m₂) = (1kg(0.3m)+3.0kg(1.6m)) / ((3.0+1.0)kg) =1.275m from the axis of rotation.\nI_pend = 2/5(1.0kg)(0.3m)² +1.0kg(0.3m)² + 1/12(3.0kg)(2.0m)² +3.0kg(1.6m)² = 8.8kg·m²\nΔh_rod = h_rod (1−cos 30°) = 1.6m(0.134) = 0.214m\nΔh_sphere = h_sphere (1−cos30°) = 0.3m(0.134) = 0.04m\nΔU = mgΔh = (3kg)(9.8m/s²)(0.214m)+(1kg)(9.8m/s²)(0.04m) = 6.68 J\nΔK = 1/2Iω² = 1/2(8.8kgm²)ω² ⇒ ω = √(6.68 J / 4.4kgm²) = 1.23 rad/s",
+    "question_id": 58
+  },
+  {
+    "question": "Two children push on opposite sides of a door during play. Both push horizontally and perpendicular to the door. One child pushes with a force of 17.5 N at a distance of 0.600 m from the hinges, and the second child pushes at a distance of 0.450 m. What force must the second child exert to keep the door from moving? Assume friction is negligible.",
+    "solution": "(0.600 m)(17.5 N) = (0.45 m )F, F = 23.3 N",
+    "question_id": 59
+  },
+  {
+    "question": "An automobile engine can produce 200 N×m of torque. Calculate the angular acceleration produced if 95.0% of this torque is applied to the drive shaft, axle, and rear wheels of a car, given the following information. The car is suspended so that the wheels can turn freely. Each wheel acts like a 15.0-kg disk that has a 0.180-m radius. The walls of each tire act like a 2.00-kg annular ring that has inside radius of 0.180 m and outside radius of 0.320 m. The tread of each tire acts like a 10.0-kg hoop of radius 0.330 m. The 14.0-kg axle acts like a rod that has a 2.00-cm radius. The 30.0-kg drive shaft acts like a rod that has a 3.20-cm radius.",
+    "solution": "I_wheel = 2 * 1/2(15.0kg)(0.180m)² = 0.486kg-m²\nI_wall = 2 * 1/2(2.0kg)((0.180m)² + (0.320m)²) = 0.27kg-m²\nI_tread = 2(10.0kg)(0.330m)² = 2.175kg-m²\nI_axle = 1/2(14.0kg)(0.02m)² = 0.0028kg-m²\nI_shaft = 1/2(30.0kg)(0.032m)² = 0.0154kg-m²\nI_total = 2.94kg-m²\nα = 190.0 N-m / 2.94 kg-m² = 64.4rad/s²",
+    "question_id": 60
+  },
+  {
+    "question": "The angular acceleration of a rotating rigid body is given by α = (2.0−3.0t) rad/s². If the body starts rotating from rest at t = 0, (a) what is the angular velocity? (b) Angular position? (c) What angle does it rotate through in 10 s? (d) Where does the vector perpendicular to the axis of rotation indicating 0° at t = 0 lie at t=10s ?",
+    "solution": "a. ω = ∫α(t)dt (rad/s) = ∫(2.0−3.0t)dt = 2.0t −1.5t²;\nb. θ = ∫ω(t)dt (rad) = ∫(2.0t −1.5t²)dt = t² −0.5t³;\nc. θ = 100.0 − 0.5(1000.0 s) = −400.0 rad ;\nd. −400.0 / 2π = -63.66 revolutions ⇒ the vector is at −0.66(360°)=−237.6°",
+    "question_id": 61
+  },
+  {
+    "question": "A cord is wrapped around the rim of a solid cylinder of radius 0.25 m, and a constant force of 40 N is exerted on the cord shown, as shown in the following figure. The cylinder is mounted on frictionless bearings, and its moment of inertia is 6.0 kg·m². (a) Use the work energy theorem to calculate the angular velocity of the cylinder after 5.0 m of cord have been removed. (b) If the 40-N force is replaced by a 40-N weight, what is the angular velocity of the cylinder after 5.0 m of cord have unwound?",
+    "solution": "a. W_AB = τ(θ_B−θ_A) ΔΘ = 5.0m/0.25m = 20.0 radians\nW_AB = (0.25m)(40.0N)(20.0rad) = 200.0N·m = 1/2(6.0kg·m²)ω² – 0\nω = 8.2 rad/s;\nb. Use conservation of mechanical energy\nmgh = 1/2mv² + 1/2Iω² = 1/2m(rω)² + 1/2Iω²\n40.0N(5.0m) = 1/2(4.08kg)(0.25)²ω² + 1/2(3.0)ω²\n200.0 = 0.13ω² + 3.0ω² ⇒ ω = 8.0 rad/s",
+    "image_description": "A diagram shows a solid cylinder with a cord wrapped around its rim. The cord hangs vertically downwards, and a force of 40 N is applied to the end of the cord.",
+    "question_id": 63
+  }
+]
